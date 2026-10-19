@@ -1,0 +1,549 @@
+/*-- scss:defaults --*/
+$primary: #1f4e79;          // main accent colour (deep blue)
+$link-color: #1f4e79;
+$navbar-bg: #ffffff;
+$navbar-fg: #2b2b2b;
+$navbar-hl: #1f4e79;
+$footer-bg: #f6f7f9;
+$body-color: #222222;
+$font-size-root: 17px;
+
+/*-- scss:rules --*/
+.navbar {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.navbar-brand .navbar-title {
+  font-weight: 600;
+  color: $primary !important;
+}
+
+h1.title, .quarto-title h1 {
+  color: $primary;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* publication list: numbered entries with hanging numbers */
+#refs .csl-entry {
+  margin-bottom: 0.9rem;
+  line-height: 1.5;
+  padding-left: 2.4em;
+  text-indent: -2.4em;
+}
+#refs .pubnum {
+  display: inline-block;
+  width: 2.4em;
+  text-indent: 0;
+  font-weight: 600;
+  color: $primary;
+}
+#refs h3.pub-year {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: $primary;
+  margin-top: 1.6rem;
+  margin-bottom: 0.7rem;
+}
+#refs .year-bar p {
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
+/* small grey labels, e.g. course level or year */
+.label {
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+/* home page links as tidy buttons */
+.about-links .about-link {
+  font-size: 0.95rem;
+}
+
+/* small "Selected papers" boxes on the Research page */
+.selected {
+  background: #f6f7f9;
+  border-left: 3px solid $primary;
+  padding: 0.8rem 1.1rem 0.2rem;
+  margin: 0.8rem 0 1.2rem;
+  font-size: 0.93rem;
+}
+
+/* photo grid on the Gallery page */
+.gallery p {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.75rem;
+}
+.gallery a {
+  display: block;
+}
+.gallery img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* tables: keep them readable on phones */
+table {
+  font-size: 0.95rem;
+}
+
+/* ---------- Workshops page ---------- */
+.ws-intro {
+  font-size: 1.02rem;
+  margin-bottom: 1rem;
+}
+.ws-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 0.4rem 0 1.6rem;
+}
+.ws-stats p {
+  display: contents;            /* pandoc wraps the spans in a paragraph */
+}
+.ws-stat {
+  flex: 1 1 8rem;
+  background: #f6f7f9;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 0.65rem 0.9rem;
+  color: #4b5563;
+  font-size: 0.88rem;
+}
+.ws-num {
+  display: block;
+  color: $primary;
+  font-weight: 700;
+  font-size: 1.45rem;
+  line-height: 1.2;
+}
+.ws-grid {
+  display: grid;
+  grid-template-columns: 1fr;      /* one workshop per row */
+  gap: 1.1rem;
+}
+.ws-card {                        /* one compact row: date on the left, details on the right */
+  display: grid;
+  grid-template-columns: 6.5rem 1fr;
+  column-gap: 1.1rem;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-left: 4px solid $primary;
+  border-radius: 10px;
+  padding: 0.75rem 1rem 0.7rem 0.9rem;
+  transition: box-shadow 0.15s ease;
+}
+.ws-card:hover {
+  box-shadow: 0 6px 18px rgba(31, 78, 121, 0.12);
+}
+.ws-when {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.3rem;
+  font-size: 0.82rem;
+  border-right: 1px solid #eef0f3;
+  padding-right: 0.6rem;
+}
+.ws-year {
+  background: $primary;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.95rem;
+  border-radius: 6px;
+  padding: 0.05rem 0.55rem;
+}
+.ws-date {
+  color: #4b5563;
+  line-height: 1.3;
+}
+.ws-tag {
+  border: 1px solid #cbd5e1;
+  color: #475569;
+  border-radius: 999px;
+  padding: 0 0.5rem;
+  font-size: 0.72rem;
+  line-height: 1.5;
+}
+.ws-online {
+  border-color: #b7d3ee;
+  background: #eef5fc;
+  color: $primary;
+}
+.ws-body {
+  min-width: 0;
+}
+.ws-lectures {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0.3rem;
+}
+.ws-lectures li {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.6rem;
+  padding: 0.15rem 0;
+}
+.ws-lectures li + li {
+  border-top: 1px dashed #e5e7eb;
+  padding-top: 0.3rem;
+}
+.ws-title {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.35;
+  color: #1f2937;
+}
+.ws-event {
+  font-size: 0.87rem;
+  color: #374151;
+  margin: 0 0 0.2rem;
+  line-height: 1.4;
+}
+.ws-foot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.3rem 0.8rem;
+}
+.ws-host {
+  font-size: 0.83rem;
+  color: #6b7280;
+  margin: 0;
+  line-height: 1.4;
+}
+.ws-foot .ws-btn {
+  margin-left: auto;              /* Code & data sits at the right end of the venue line */
+}
+.ws-btn {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid $primary;
+  color: $primary;
+  border-radius: 6px;
+  padding: 0.15rem 0.6rem;
+}
+.ws-btn:hover {
+  background: $primary;
+  color: #ffffff;
+}
+.ws-btn-main {
+  background: $primary;
+  color: #ffffff;
+}
+.ws-btn-main:hover {
+  background: darken($primary, 8%);
+}
+@media (max-width: 575.98px) {    /* phones: date line on top, details below */
+  .ws-card {
+    grid-template-columns: 1fr;
+    row-gap: 0.45rem;
+  }
+  .ws-when {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    border-right: none;
+    padding-right: 0;
+  }
+}
+.ws-note {
+  margin-top: 1.8rem;
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+/* ---------- Metrics page ---------- */
+.mc-toolbar p {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.mc-tab {
+  cursor: pointer;
+  border: 1px solid $primary;
+  color: $primary;
+  border-radius: 999px;
+  padding: 0.3rem 1rem;
+  font-weight: 600;
+  font-size: 0.92rem;
+  user-select: none;
+}
+.mc-tab.active,
+.mc-tab:hover {
+  background: $primary;
+  color: #ffffff;
+}
+.mc-tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  gap: 0.7rem;
+  margin-bottom: 1.4rem;
+}
+.mc-tile {
+  background: #f6f7f9;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 0.75rem 1rem;
+  color: #4b5563;
+  font-size: 0.9rem;
+}
+.mc-num {
+  display: block;
+  color: $primary;
+  font-weight: 700;
+  font-size: 1.7rem;
+  line-height: 1.15;
+}
+h3.mc-h {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 1.2rem 0 0.5rem;
+}
+.mc-chart {
+  width: 100%;
+  height: auto;
+}
+.mc-chart .mc-bar { fill: $primary; }
+.mc-chart .mc-bar:hover { fill: #3a78b5; }
+.mc-chart .mc-grid { stroke: #e5e7eb; stroke-width: 1; }
+.mc-chart .mc-ax { fill: #6b7280; font-size: 11px; }
+.mc-chart .mc-val { fill: #374151; font-size: 10px; }
+.mc-search {
+  max-width: 24rem;
+  margin-bottom: 0.3rem;
+}
+.mc-count, .mc-updated {
+  font-size: 0.82rem;
+  color: #6b7280;
+}
+.mc-tablewrap {
+  overflow-x: auto;
+}
+.mc-table {
+  width: 100%;
+  font-size: 0.88rem;
+  border-collapse: collapse;
+}
+.mc-table th {
+  cursor: pointer;
+  white-space: nowrap;
+  border-bottom: 2px solid #d1d5db;
+  padding: 0.4rem 0.5rem;
+  color: #374151;
+}
+.mc-table th.desc::after { content: " ▾"; }
+.mc-table th.asc::after { content: " ▴"; }
+.mc-table td {
+  border-bottom: 1px solid #eef0f3;
+  padding: 0.4rem 0.5rem;
+  vertical-align: top;
+}
+.mc-table td.mc-c { text-align: right; font-variant-numeric: tabular-nums; }
+.mc-s-inline { display: none; }
+@media (max-width: 575.98px) {            // phones: drop the Source column, show it under the title
+  .mc-table .mc-s { display: none; }
+  .mc-s-inline { display: block; margin-top: 0.15rem; font-size: 0.78rem; color: #6b7280; }
+}
+.mc-empty {
+  background: #f6f7f9;
+  border-left: 3px solid $primary;
+  padding: 0.8rem 1rem;
+}
+.mc-note {
+  margin-top: 1.6rem;
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+.mc-more {
+  margin-top: 0.7rem;
+  border: 1px solid $primary;
+  background: #ffffff;
+  color: $primary;
+  border-radius: 6px;
+  padding: 0.25rem 0.8rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.mc-more:hover {
+  background: $primary;
+  color: #ffffff;
+}
+
+/* ---------- Home page: citation metrics under the profile links ---------- */
+.home-metrics {
+  margin: 1.4rem auto 0;
+  width: 100%;
+  max-width: 19rem;
+  text-align: left;
+}
+.hm-title {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #6b7280;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.hm-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #e5e7eb;
+  border-left: 3px solid $primary;
+  border-radius: 8px;
+  padding: 0.55rem 0.8rem 0.6rem;
+  margin-bottom: 0.6rem;
+  background: #ffffff;
+  transition: box-shadow 0.15s ease;
+}
+.hm-card:hover {
+  box-shadow: 0 4px 12px rgba(31, 78, 121, 0.12);
+  color: inherit;
+}
+.hm-src {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 0.25rem;
+}
+.hm-stats {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+.hm-stat {
+  font-size: 0.75rem;
+  color: #6b7280;
+  line-height: 1.2;
+}
+.hm-num {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: $primary;
+}
+.hm-foot {
+  font-size: 0.75rem;
+  color: #6b7280;
+  text-align: center;
+}
+
+// ---- Page footer ----------------------------------------------------------
+// The centre part of the footer is not used. When it is empty, give its space
+// to the left part (name, department) and the right part (last updated date),
+// and on phones drop the empty band it leaves below them.
+@media (min-width: 768px) {
+  .nav-footer-center:not(:has(p)) { flex: 0 0 0; min-height: 0; }
+}
+@media (max-width: 767.98px) {
+  .nav-footer-center:not(:has(p)) { display: none; }
+}
+
+// ---- Course pages (teaching/<course>/index.qmd) and the Teaching page cards ----
+.cp-meta p { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0 0 1rem; }
+.cp-chip {
+  border: 1px solid #cbd5e1;
+  border-radius: 999px;
+  padding: 0.1rem 0.7rem;
+  font-size: 0.82rem;
+  color: #475569;
+  background: #f8fafc;
+}
+a.cp-unit {
+  display: inline-block;
+  margin: 0.2rem 0 0.8rem;
+  padding: 0.3rem 0.85rem;
+  border-radius: 6px;
+  background: $primary;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.88rem;
+  text-decoration: none;
+}
+a.cp-unit:hover { background: darken($primary, 8%); color: #ffffff; }
+a.cp-unit::before, a.cp-pdf::before {
+  font-family: "bootstrap-icons";
+  content: "\f387";                // bi-file-earmark-slides
+  margin-right: 0.35rem;
+  font-weight: normal;
+}
+a.cp-pdf {
+  white-space: nowrap;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid $primary;
+  border-radius: 6px;
+  padding: 0.1rem 0.5rem;
+}
+a.cp-pdf:hover { background: $primary; color: #ffffff; }
+.panel-tabset table td { vertical-align: middle; }
+.panel-tabset table td:first-child { white-space: nowrap; }
+.cp-topics { font-size: 0.9em; color: #4b5563; }                  // topics under a chapter title (Econometrics)
+.cp-prac { font-size: 0.82em; color: #6b7280; font-style: italic; } // R practicals of the chapter
+.cp-note {
+  margin-top: 1.6rem;
+  background: #f6f7f9;
+  border-left: 3px solid $primary;
+  padding: 0.7rem 1rem;
+  font-size: 0.9rem;
+  color: #4b5563;
+}
+.cp-courses {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.cp-course {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e5e7eb;
+  border-left: 4px solid $primary;
+  border-radius: 10px;
+  padding: 0.9rem 1.1rem 0.6rem;
+}
+.cp-course h3 { margin-top: 0.2rem; font-size: 1.25rem; }
+.cp-course h3 a { text-decoration: none; }
+.cp-level { font-size: 0.8rem; color: #6b7280; }
+.cp-course p { margin-bottom: 0.5rem; }
+a.cp-go {
+  display: inline-block;
+  padding: 0.3rem 0.85rem;
+  border-radius: 6px;
+  background: $primary;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.88rem;
+  text-decoration: none;
+}
+a.cp-go:hover { background: darken($primary, 8%); color: #ffffff; }
+a.cp-go::after { font-family: "bootstrap-icons"; content: "\f138"; margin-left: 0.4rem; }  // bi-arrow-right
+.cp-course p:last-child { margin-top: auto; }
+.cp-course > section { display: flex; flex-direction: column; flex: 1; }   // Quarto wraps the heading and text in a section
+@media (max-width: 575.98px) {               // phones: let the topics column take the room
+  .panel-tabset table colgroup col { width: auto !important; }
+  .panel-tabset table { font-size: 0.86rem; }
+  .panel-tabset table th, .panel-tabset table td { padding-left: 0.3rem; padding-right: 0.3rem; }
+  a.cp-pdf { font-size: 0.78rem; padding: 0.05rem 0.35rem; }
+  a.cp-unit { font-size: 0.84rem; }
+  .panel-tabset table td:nth-child(2) { hyphens: auto; }   // long words (multicollinearity) may break
+}

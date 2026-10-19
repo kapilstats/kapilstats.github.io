@@ -1,0 +1,133 @@
+---
+title: "Statistical Inference–II"
+subtitle: "M.Sc. Statistics · Semester III · Academic Session 2026–27"
+---
+
+<!--
+Made by make_course_pages.py. Only the 60 lecture decks (Lecture_01.pdf ... Lecture_60.pdf)
+are published. TO UPDATE A DECK: replace its PDF in this folder (keep the file name), correct
+its slide count in the table below if it changed, and run weekly_update.R.
+-->
+
+::: {.cp-meta}
+[CCS University, Meerut]{.cp-chip}
+[4 credits · 60 lectures]{.cp-chip}
+[60 lecture decks]{.cp-chip}
+:::
+
+The course gives a unified treatment of statistical decision theory, sequential procedures and
+distribution-free methods: how loss and risk functions provide a common framework for estimation
+and testing, how the sample size can be decided sequentially through an SPRT, and how valid
+inference can be made when no fully specified parametric model is available.
+
+## Slides
+
+There is one deck for each lecture.
+
+::: {.panel-tabset}
+## Unit I
+
+**Decision Theory** · Lectures 1–20
+
+| Lecture | Topics | Slides |
+|:----:|:----------------------------------------------|:----------:|
+| 1 | Introduction; elements of a decision problem; standard loss functions | [19 slides](Lecture_01.pdf){.cp-pdf} |
+| 2 | Non-randomised decision rules; the risk function; risk of an estimator and of a test | [8 slides](Lecture_02.pdf){.cp-pdf} |
+| 3 | Randomised decision rules; convexity of the risk set | [10 slides](Lecture_03.pdf){.cp-pdf} |
+| 4 | Uniformly best rules; admissibility; linear estimators of a normal mean | [13 slides](Lecture_04.pdf){.cp-pdf} |
+| 5 | The minimax principle; minimax action in a no-data problem | [9 slides](Lecture_05.pdf){.cp-pdf} |
+| 6 | Minimax and Bayes rules among non-randomised rules: the Bernoulli example | [10 slides](Lecture_06.pdf){.cp-pdf} |
+| 7 | Prior distribution, Bayes risk and Bayes rule | [10 slides](Lecture_07.pdf){.cp-pdf} |
+| 8 | Structure of the Bayes rule: posterior expected loss | [7 slides](Lecture_08.pdf){.cp-pdf} |
+| 9 | Bayes estimators under squared error, weighted squared error and absolute error loss | [11 slides](Lecture_09.pdf){.cp-pdf} |
+| 10 | Small-neighbourhood (MAP) and LINEX losses | [10 slides](Lecture_10.pdf){.cp-pdf} |
+| 11 | Worked examples: linear rules; the beta–binomial model | [18 slides](Lecture_11.pdf){.cp-pdf} |
+| 12 | Normal–normal and Poisson–gamma models; different losses, different estimates | [21 slides](Lecture_12.pdf){.cp-pdf} |
+| 13 | Bayes rules and admissibility | [11 slides](Lecture_13.pdf){.cp-pdf} |
+| 14 | Least favourable priors; Bayes rules with constant risk are minimax | [10 slides](Lecture_14.pdf){.cp-pdf} |
+| 15 | Randomised minimax rules in finite problems | [14 slides](Lecture_15.pdf){.cp-pdf} |
+| 16 | Minimax estimators of a binomial proportion and of a normal mean | [15 slides](Lecture_16.pdf){.cp-pdf} |
+| 17 | Complete, essentially complete and minimal complete classes and their relationship | [12 slides](Lecture_17.pdf){.cp-pdf} |
+| 18 | Complete class theorems; sufficiency; estimation viewed as a decision problem | [14 slides](Lecture_18.pdf){.cp-pdf} |
+| 19 | Testing viewed as a decision problem; the Bayes test | [14 slides](Lecture_19.pdf){.cp-pdf} |
+| 20 | The minimax test; summary and revision | [17 slides](Lecture_20.pdf){.cp-pdf} |
+
+## Units II–III
+
+**Sequential Analysis** · Lectures 21–40
+
+| Lecture | Topics | Slides |
+|:----:|:----------------------------------------------|:----------:|
+| 21 | Sequential procedures; stopping rules and stopping times | [6 slides](Lecture_21.pdf){.cp-pdf} |
+| 22 | Wald's SPRT; the log-likelihood ratio as a random walk | [7 slides](Lecture_22.pdf){.cp-pdf} |
+| 23 | Termination of the SPRT with probability one | [7 slides](Lecture_23.pdf){.cp-pdf} |
+| 24 | Choice of the boundaries; Wald's approximations | [7 slides](Lecture_24.pdf){.cp-pdf} |
+| 25 | Wald's bounds on the attained error probabilities; the SPRT in terms of a sufficient statistic | [10 slides](Lecture_25.pdf){.cp-pdf} |
+| 26 | Wald's fundamental identity for bounded stopping times | [7 slides](Lecture_26.pdf){.cp-pdf} |
+| 27 | The fundamental identity for the SPRT; Wald's equation | [8 slides](Lecture_27.pdf){.cp-pdf} |
+| 28 | Wald's second identity | [6 slides](Lecture_28.pdf){.cp-pdf} |
+| 29 | The O.C. function: the root $h(\theta)$ and the O.C. formula | [11 slides](Lecture_29.pdf){.cp-pdf} |
+| 30 | The parametric method for drawing the O.C. curve | [6 slides](Lecture_30.pdf){.cp-pdf} |
+| 31 | The A.S.N. function | [8 slides](Lecture_31.pdf){.cp-pdf} |
+| 32 | The zero-drift case | [5 slides](Lecture_32.pdf){.cp-pdf} |
+| 33 | SPRT for Bernoulli and binomial populations | [12 slides](Lecture_33.pdf){.cp-pdf} |
+| 34 | SPRT for a Poisson population | [6 slides](Lecture_34.pdf){.cp-pdf} |
+| 35 | SPRT for a normal mean and a normal variance | [9 slides](Lecture_35.pdf){.cp-pdf} |
+| 36 | SPRT for exponential and gamma populations | [12 slides](Lecture_36.pdf){.cp-pdf} |
+| 37 | O.C. and A.S.N. curves; comparison with a fixed-sample test | [14 slides](Lecture_37.pdf){.cp-pdf} |
+| 38 | Solved numerical examples: binomial, Poisson and normal | [14 slides](Lecture_38.pdf){.cp-pdf} |
+| 39 | Solved numerical examples: exponential and gamma | [10 slides](Lecture_39.pdf){.cp-pdf} |
+| 40 | Summary and revision | [10 slides](Lecture_40.pdf){.cp-pdf} |
+
+## Units IV–V
+
+**Nonparametric Inference** · Lectures 41–60
+
+| Lecture | Topics | Slides |
+|:----:|:----------------------------------------------|:----------:|
+| 41 | Nonparametric and distribution-free procedures; assumptions that still matter | [9 slides](Lecture_41.pdf){.cp-pdf} |
+| 42 | Empirical distribution function; probability integral transformation | [10 slides](Lecture_42.pdf){.cp-pdf} |
+| 43 | Order statistics; the distribution of $X_{(r)}$ | [7 slides](Lecture_43.pdf){.cp-pdf} |
+| 44 | Sample quantiles: consistency and asymptotic normality | [9 slides](Lecture_44.pdf){.cp-pdf} |
+| 45 | Distribution-free confidence intervals for quantiles | [9 slides](Lecture_45.pdf){.cp-pdf} |
+| 46 | One-sided bounds; duality with the sign test; principles of nonparametric testing | [9 slides](Lecture_46.pdf){.cp-pdf} |
+| 47 | Runs: the null distribution of the number of runs | [7 slides](Lecture_47.pdf){.cp-pdf} |
+| 48 | Mean and variance of the number of runs; the one-sample runs test | [15 slides](Lecture_48.pdf){.cp-pdf} |
+| 49 | Runs up and down; the Wald–Wolfowitz two-sample runs test | [12 slides](Lecture_49.pdf){.cp-pdf} |
+| 50 | One-sample sign test | [7 slides](Lecture_50.pdf){.cp-pdf} |
+| 51 | Paired sign test; confidence interval for a median | [9 slides](Lecture_51.pdf){.cp-pdf} |
+| 52 | Median test: construction; a $k$-sample example | [11 slides](Lecture_52.pdf){.cp-pdf} |
+| 53 | Median test for two samples; Fisher's exact test | [8 slides](Lecture_53.pdf){.cp-pdf} |
+| 54 | Wilcoxon signed-rank test: null distribution | [12 slides](Lecture_54.pdf){.cp-pdf} |
+| 55 | Paired signed-rank test with ties; Hodges–Lehmann estimator | [13 slides](Lecture_55.pdf){.cp-pdf} |
+| 56 | Mann–Whitney–Wilcoxon test: null distribution | [12 slides](Lecture_56.pdf){.cp-pdf} |
+| 57 | Mann–Whitney test with ties; normal approximation; Hodges–Lehmann shift estimator | [16 slides](Lecture_57.pdf){.cp-pdf} |
+| 58 | One-sample Kolmogorov–Smirnov test | [17 slides](Lecture_58.pdf){.cp-pdf} |
+| 59 | Two-sample Kolmogorov–Smirnov test | [8 slides](Lecture_59.pdf){.cp-pdf} |
+| 60 | Comparison and selection of procedures; summary and revision | [13 slides](Lecture_60.pdf){.cp-pdf} |
+
+:::
+
+## Syllabus
+
+| Unit | Topics | Lectures |
+|:----:|:--------------------------------------------------|:------:|
+| I | Decision theory: loss and risk functions; randomised and non-randomised decision rules; admissibility; complete, essentially complete and minimal complete classes; Bayes and minimax decision rules; estimation and testing viewed as decision problems; Bayes and minimax estimators; Bayes and minimax tests in simple cases. | 20 |
+| II–III | Sequential analysis: SPRT and its applications to binomial, Poisson, normal, exponential and gamma populations; O.C. and A.S.N. functions; termination of the SPRT with probability one; Wald's fundamental identity and its applications. | 20 |
+| IV–V | Nonparametric inference: probability integral transformation; estimation of quantiles and distribution-free confidence intervals for population quantiles; tests for randomness; runs and sign tests (one and two samples); median test; Wilcoxon and Mann–Whitney tests; one- and two-sample Kolmogorov–Smirnov tests. | 20 |
+
+## Books
+
+- Berger, J. O. (1985). *Statistical Decision Theory and Bayesian Analysis*, 2nd Ed., Springer-Verlag, New York.
+- Conover, W. J. (1999). *Practical Nonparametric Statistics*, 3rd Ed., John Wiley & Sons, New York.
+- Ferguson, T. S. (1967). *Mathematical Statistics: A Decision Theoretic Approach*, Academic Press, New York.
+- Gibbons, J. D., and Chakraborti, S. (2021). *Nonparametric Statistical Inference*, 6th Ed., CRC Press, Boca Raton.
+- Goon, A. M., Gupta, M. K., and Dasgupta, B. (1980). *An Outline of Statistical Theory, Volume II*, 2nd revised Ed., The World Press, Calcutta.
+- Lehmann, E. L., and Romano, J. P. (2022). *Testing Statistical Hypotheses*, 4th Ed., Springer, Cham.
+- Rohatgi, V. K., and Saleh, A. K. Md. E. (2015). *An Introduction to Probability and Statistics*, 3rd Ed., John Wiley & Sons, Hoboken.
+- Wald, A. (1947). *Sequential Analysis*, John Wiley & Sons, New York.
+
+::: {.cp-note}
+The slides follow my lecture notes for the course. The complete notes, worked solutions and
+assignments are shared with the students enrolled in the course.
+:::

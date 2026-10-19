@@ -1,0 +1,30 @@
+---
+title: "Metrics"
+subtitle: "Citations and publications from Google Scholar and Scopus"
+include-after-body:
+  - new-tab-links.html
+  - metrics/metrics-console.html
+---
+
+<!--
+TO UPDATE THE NUMBERS
+1. (Scopus, when you have a new export) save it as metrics/raw/scopus_export.csv
+2. In R, from this folder:  source("metrics/update_metrics.R")
+3. quarto render, then commit and push.
+The page reads metrics/metrics.json; nothing here needs editing.
+-->
+
+::: {#metrics-console}
+::: {.mc-toolbar}
+[Google Scholar]{.mc-tab data-source="scholar"}
+[Scopus]{.mc-tab data-source="scopus"}
+:::
+
+::: {#mc-body}
+Loading…
+:::
+:::
+
+::: {.mc-note}
+The two databases count differently: Google Scholar also indexes theses, preprints, books and conference papers, so its totals are usually higher than those of Scopus. Scopus figures are computed from the exported list of documents in the author's Scopus profile, so the Scopus chart shows documents per year rather than citations per year.
+:::

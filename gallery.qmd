@@ -1,0 +1,35 @@
+---
+title: "Gallery"
+lightbox: true
+---
+
+Photographs from conferences, workshops and other academic events. Click a photo to enlarge it.
+
+<!--
+HOW TO ADD PHOTOS OF AN EVENT
+
+1. Make a folder for the event inside images/gallery/ and copy the photos
+   into it (JPG, ideally under 500 KB each), for example:
+       images/gallery/2026-iisa-bhu/photo1.jpg
+
+2. Copy the example block between the two dashed lines and paste it
+   just BELOW this comment (newest event at the top). Edit the heading,
+   the folder and file names, and the captions in description="...".
+   Keep the photo lines together, with no blank lines between them.
+   Give each event its own group name, e.g. group="iisa2026".
+
+------------------------------------------------------------------------
+## IISA-2026 Conference, BHU Varanasi (December 2026)
+
+::: {.gallery}
+![](images/gallery/2026-iisa-bhu/photo1.jpg){.lightbox group="iisa2026" description="Delivering the invited talk"}
+![](images/gallery/2026-iisa-bhu/photo2.jpg){.lightbox group="iisa2026" description="With colleagues"}
+![](images/gallery/2026-iisa-bhu/photo3.jpg){.lightbox group="iisa2026" description="Conference venue"}
+:::
+------------------------------------------------------------------------
+
+3. Delete the line "Photographs will be added soon." below.
+4. Run quarto render, then commit and push.
+-->
+
+*Photographs will be added soon.*

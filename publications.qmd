@@ -1,0 +1,21 @@
+---
+title: "Publications"
+bibliography: _publications.bib   # made automatically from publications.bib
+csl: newest-first.csl
+nocite: |
+  @*
+citeproc: false                   # the list is built by publications.lua
+filters:
+  - publications.lua
+---
+
+Newest first. Citation counts and full-text links are available on my profiles: [Google Scholar](https://scholar.google.co.in/citations?user=5_ONzJUAAAAJ&hl=en), [Scopus](https://www.scopus.com/authid/detail.uri?authorId=56087498200), [ORCID](https://orcid.org/0000-0002-8405-3921) and [ResearchGate](https://www.researchgate.net/profile/Kapil-Kumar-6).
+
+<!--
+HOW TO ADD A NEW PAPER
+1. Open publications.bib, copy an existing entry and edit it (give it a new key).
+2. Run quarto render, then commit and push.
+-->
+
+::: {#refs}
+:::

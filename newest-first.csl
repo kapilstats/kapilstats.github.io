@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never" default-locale="en-GB">
+  <info>
+    <title>Publication list, newest first</title>
+    <id>kapilstats-newest-first</id>
+    <updated>2026-10-19T00:00:00+00:00</updated>
+  </info>
+
+  <!-- Kumar, K., Garg, R., and Singh, A. -->
+  <macro name="author">
+    <names variable="author">
+      <name and="text" delimiter=", " delimiter-precedes-last="always" initialize-with=". " name-as-sort-order="all" sort-separator=", "/>
+      <label form="short" prefix=" (" suffix=")"/>
+      <substitute>
+        <names variable="editor"/>
+      </substitute>
+    </names>
+  </macro>
+
+  <macro name="year">
+    <choose>
+      <if variable="issued">
+        <date variable="issued">
+          <date-part name="year"/>
+        </date>
+      </if>
+      <else>
+        <text value="in press"/>
+      </else>
+    </choose>
+  </macro>
+
+  <macro name="title">
+    <choose>
+      <if type="book thesis report" match="any">
+        <text variable="title" font-style="italic"/>
+      </if>
+      <else>
+        <text variable="title"/>
+      </else>
+    </choose>
+  </macro>
+
+  <macro name="container">
+    <choose>
+      <if type="article-journal article-magazine article-newspaper article" match="any">
+        <group delimiter=", ">
+          <text variable="container-title" font-style="italic"/>
+          <group>
+            <text variable="volume"/>
+            <text variable="issue" prefix="(" suffix=")"/>
+          </group>
+          <text variable="page"/>
+          <text variable="note"/>
+        </group>
+      </if>
+      <else-if type="chapter paper-conference" match="any">
+        <group delimiter=" ">
+          <text value="In"/>
+          <names variable="editor">
+            <name and="text" delimiter=", " initialize-with=". "/>
+            <label form="short" prefix=" (" suffix=")"/>
+          </names>
+          <group delimiter=", ">
+            <text variable="container-title" font-style="italic"/>
+            <text variable="page" prefix="pp. "/>
+            <text variable="publisher"/>
+          </group>
+        </group>
+      </else-if>
+      <else-if type="thesis">
+        <group delimiter=", ">
+          <text variable="genre"/>
+          <text variable="publisher"/>
+        </group>
+      </else-if>
+      <else>
+        <group delimiter=", ">
+          <text variable="edition" suffix=" Ed."/>
+          <text variable="publisher"/>
+          <text variable="publisher-place"/>
+        </group>
+      </else>
+    </choose>
+  </macro>
+
+  <macro name="link">
+    <choose>
+      <if variable="DOI">
+        <text variable="DOI" prefix="https://doi.org/"/>
+      </if>
+      <else-if variable="URL">
+        <text variable="URL"/>
+      </else-if>
+    </choose>
+  </macro>
+
+  <citation>
+    <layout delimiter="; ">
+      <text macro="author"/>
+    </layout>
+  </citation>
+
+  <bibliography entry-spacing="0">
+    <sort>
+      <key macro="year" sort="descending"/>
+    </sort>
+    <layout>
+      <group delimiter=" ">
+        <group delimiter=" ">
+          <text macro="author"/>
+          <text macro="year" prefix="(" suffix=")."/>
+        </group>
+        <text macro="title" suffix="."/>
+        <text macro="container" suffix="."/>
+        <text macro="link"/>
+      </group>
+    </layout>
+  </bibliography>
+</style>

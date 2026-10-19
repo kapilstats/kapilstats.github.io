@@ -1,0 +1,39 @@
+```{=html}
+<div class="list ws-grid">
+<% for (const item of items) { %>
+  <article class="ws-card" <%= metadataAttrs(item) %>>
+    <div class="ws-when">
+      <span class="ws-year"><%= item.year %></span>
+      <span class="ws-date"><%= String(item.when).replace(/\s*\d{4}$/, "") %></span>
+      <% if (item.mode) { %><span class="ws-tag ws-online"><%= item.mode %></span><% } %>
+      <% if (item.role) { %><span class="ws-tag"><%= item.role %></span><% } %>
+    </div>
+    <div class="ws-body">
+      <ul class="ws-lectures">
+      <% for (const lec of item.lectures) { %>
+        <li>
+          <span class="ws-title"><%= lec.title %></span>
+          <a class="ws-btn ws-btn-main" href="<%- lec.pdf %>" title="<%= lec.pages %> pages, <%= lec.size %>">
+            <i class="bi bi-file-earmark-slides"></i> Slides</a>
+        </li>
+      <% } %>
+      </ul>
+      <p class="ws-event"><%= item.event %></p>
+      <div class="ws-foot">
+        <p class="ws-host"><i class="bi bi-geo-alt"></i> <%= item.host %></p>
+        <a class="ws-btn" href="mailto:kapilstats@gmail.com?subject=<%- encodeURIComponent('Request for R code and data: ' + item.title) %>"
+           title="R code and data are shared on request by email">
+          <i class="bi bi-envelope"></i> Request code &amp; data</a>
+      </div>
+    </div>
+    <div class="ws-search" hidden>
+      <span class="listing-title"><%= item.title %></span>
+      <span class="listing-date"><%= item.date %></span>
+      <span class="listing-event"><%= item.event %></span>
+      <span class="listing-host"><%= item.host %></span>
+      <span class="listing-categories"><%= (item.categories || []).join(", ") %> <%= item.mode %> <%= item.role %> <%= item.year %></span>
+    </div>
+  </article>
+<% } %>
+</div>
+```

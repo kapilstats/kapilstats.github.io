@@ -1,0 +1,42 @@
+---
+title: "Workshops"
+subtitle: "Invited lectures on R at workshops, training programmes and faculty development programmes"
+page-layout: full          # use the whole screen width, so each workshop fits on a short row
+listing:
+  id: workshop-list
+  contents: workshops.yml
+  template: workshops.ejs
+  sort: "date desc"
+  sort-ui: false
+  filter-ui: true
+  categories: true
+  page-size: 50
+  fields: [title, date, event, host, categories]
+---
+
+<!--
+TO ADD A LECTURE
+1. Make a folder workshops/<yyyy-mm-short-name>/ and put the slide PDF(s) in it.
+   (R code and data are not published; they are sent by email on request.)
+2. Copy an entry in workshops.yml, edit it (newest entries can go anywhere;
+   the page sorts by date).
+3. Run quarto render, then commit and push.
+-->
+
+::: {.ws-intro}
+Since 2018 I have given invited lectures on statistical computing with R at universities, colleges and national training programmes. The **slides** for each lecture are below. The **R code and data** are available on request: use the *Request code & data* button on a lecture to send me an email.
+:::
+
+::: {.ws-stats}
+[[20]{.ws-num} programmes]{.ws-stat}
+[[27]{.ws-num} lectures]{.ws-stat}
+[[10]{.ws-num} institutions]{.ws-stat}
+[[2018–2026]{.ws-num} years]{.ws-stat}
+:::
+
+::: {#workshop-list}
+:::
+
+::: {.ws-note}
+The slides were revised and typeset in 2026 from the original lecture material. Data sets labelled *illustrative* in the slides are teaching examples, not survey or official data.
+:::

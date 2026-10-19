@@ -1,0 +1,83 @@
+---
+title: "Students"
+---
+
+I supervise PhD research in reliability, censored data, stress-strength models and Bayesian inference.
+
+## PhD awarded
+
+| Scholar | Thesis | Year | Now |
+|---------|--------|------|-----|
+| [Indrajeet Kumar](https://people.samarth.edu.in/index.php/profile/user/index/CUSB/en) | Classical and Bayesian Estimation Methods for Censored Data | 2022 | Assistant Professor, Department of Statistics, Central University of South Bihar, Gaya |
+| [Anita Kumari](https://lavasa.christuniversity.in/dept/faculty-details/OTA2Ng==/NjI=) | Inferential Procedures for Some Lifetime Models under Censored Data | 2023 | Assistant Professor, CHRIST University, Pune Lavasa Campus |
+| Ravi Chaudhary (co-supervised) | Classical and Bayesian Analysis of Repairable Systems with Arbitrary Failure and Repair Distributions | 2025 | Assistant Professor, Centre for Distance and Online Education, Manipal University Jaipur |
+
+## Current PhD scholars
+
+| Scholar | Since |
+|---------|-------|
+| Anju Grewal (co-supervised) | 2022 |
+| Sarika | 2025 |
+| Ashutosh Sharma | 2025 |
+
+## MSc dissertations
+
+I have supervised 29 MSc projects and dissertations since 2017.
+
+::: {.callout-note collapse="true" appearance="simple"}
+## Show the list
+
+**2023**
+
+- Bhawana Sharma — Reliability Estimation in Multicomponent Stress-Strength Based on Lifetime Models: A Review
+- Kusum — Bayesian Estimation for Some Type II Censored Lifetime Models: A Review
+- Shivam Sachan — Estimation on the Reliability with Parameter Stress-Strength in Lifetime Models: A Review
+- Swati Tripathi — Estimation of Some Lifetime Models Based on Left Censored Data: A Review
+
+**2022**
+
+- D Subhashni — A Study on GDP of India during 1970–2021
+- Gaurav — Bayesian Estimation for Ridge Regression Parameter under Different Loss Functions: A Review
+- Naveen — A Gender Differential in Prevalence of Hypertension Among Older Adults in India
+- Radhika — Forecasting Deaths due to Suicides in Different Zones of India from 2021 to 2025
+- Ravish — Bayesian and Classical Estimation in Some Lifetime Models under Left Censoring: A Review
+- Sunkara P. Kumar — Study of Gold Price in Different Countries during 1990–2021
+
+**2021**
+
+- Anushka — Reliability Estimation in Multicomponent Stress-Strength Model for Some Lifetime Distributions
+- Neelakshi Vasnik — E-Bayesian Estimation and Hierarchical Bayesian Estimation for Different Lifetime Models: A Review
+- Sachin Kumar — Estimation of Reliability of Stress-Strength Models: A Review
+- Yashdev — Some New Ridge Parameter for Ridge Regression: A Review
+
+**2020**
+
+- Ankit Kumar — Delhi Air Pollution: Regression Analysis and Prediction of Air Quality Index
+- Sumit Kumar — Bayesian Estimation for Some Interval Censored Lifetime Models: A Review
+- Sushma — Estimation in Some Randomly Censored Lifetime Distributions: A Review
+
+**2019**
+
+- Pooja Kumari — Meta Analysis: An Introduction
+- Sunil Machara — Classical Estimation in Some Reliability Models: A Review
+- Rajbala — Analysis of Some Data Sets using Regression Techniques
+- Anita Kumari — Bayesian Estimation for Some Lifetime Distributions: A Review
+- Jyoti — Classical Estimation Procedures for Some Statistical Distributions: A Review
+- Pawan Kumar — Reliability and Life Testing: A Review
+
+**2018**
+
+- Jogesh Dhiman — Data Analysis using R and Python
+- Deekshith Peruka — Data Analysis using SPSS
+- Sheetal Yadav — A Review of Estimation Procedures for Some Lifetime Distributions
+
+**2017**
+
+- Allen V. Thundiyil — Estimation in Some Lifetime Models
+- Kuldeep Sharma — Maximum Likelihood Estimation in Some Reliability Models
+- Pavitra Kumari — Bayesian Estimation in Some Lifetime Models
+:::
+
+## Prospective students
+
+Students interested in PhD research in these areas are welcome to contact me by [email](mailto:kapilstats@gmail.com).

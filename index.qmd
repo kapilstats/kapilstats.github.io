@@ -1,0 +1,59 @@
+---
+title: "Kapil Kumar"
+subtitle: "Professor of Statistics"
+image: images/kapil.jpg
+include-after-body:
+  - new-tab-links.html
+  - metrics/home-metrics.html     # citation metrics under the profile links
+about:
+  template: trestles
+  image-shape: round
+  image-width: 13em
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:kapilstats@gmail.com
+    - icon: mortarboard
+      text: Google Scholar
+      href: https://scholar.google.co.in/citations?user=5_ONzJUAAAAJ&hl=en
+    - icon: person-badge
+      text: ORCID
+      href: https://orcid.org/0000-0002-8405-3921
+    - icon: bar-chart
+      text: Scopus
+      href: https://www.scopus.com/authid/detail.uri?authorId=56087498200
+    - icon: journal-text
+      text: ResearchGate
+      href: https://www.researchgate.net/profile/Kapil-Kumar-6
+---
+
+I am a Professor in the Department of Statistics, Chaudhary Charan Singh University (CCSU), Meerut, India, where I have taught since January 2024. Before joining CCSU, I was on the faculty of the Department of Statistics at the Central University of Haryana, Mahendergarh (2016–2024), serving as Head of the Department from 2022 to 2024, and earlier taught at the Department of Statistics, University of Delhi (2012–2016).
+
+My research is on statistical inference for lifetime data, especially when the data are censored. I work on reliability and life testing, stress-strength reliability, and classical and Bayesian estimation for lifetime distributions under a wide range of censoring schemes.
+
+I teach Bayesian inference, survival analysis, statistical inference, linear models, design of experiments, econometrics and statistical computing with R, and I supervise PhD research in reliability and censored data.
+
+## Research interests
+
+- Reliability and life testing
+- Censored data
+- Statistical inference
+- Bayesian inference
+- Survival analysis
+
+## Education
+
+- **PhD (Statistics)**, Chaudhary Charan Singh University, Meerut, 2011\
+  Thesis: *Reliability Inferences with Censored Sample Information*
+- **MPhil (Statistics)**, Chaudhary Charan Singh University, Meerut, 2008
+- **CSIR-UGC NET (Mathematical Sciences)**, June 2007
+- **MSc (Statistics)**, Chaudhary Charan Singh University, Meerut, 2006
+- **BSc (Mathematics, Physics, Statistics)**, Meerut College, Meerut, 2004
+
+## Contact
+
+Department of Statistics\
+Chaudhary Charan Singh University\
+Meerut 250004, Uttar Pradesh, India
+
+Email: [kapilstats@gmail.com](mailto:kapilstats@gmail.com)

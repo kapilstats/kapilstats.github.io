@@ -1,0 +1,705 @@
+{
+  "scholar": {
+    "updated": "2026-10-19",
+    "profile": "https://scholar.google.com/citations?user=5_ONzJUAAAAJ",
+    "citations": 949,
+    "h_index": 16,
+    "i10_index": 22,
+    "documents": 43,
+    "by_year": [
+      {
+        "year": 2012,
+        "value": 3
+      },
+      {
+        "year": 2013,
+        "value": 9
+      },
+      {
+        "year": 2014,
+        "value": 24
+      },
+      {
+        "year": 2015,
+        "value": 19
+      },
+      {
+        "year": 2016,
+        "value": 33
+      },
+      {
+        "year": 2017,
+        "value": 45
+      },
+      {
+        "year": 2018,
+        "value": 39
+      },
+      {
+        "year": 2019,
+        "value": 35
+      },
+      {
+        "year": 2020,
+        "value": 65
+      },
+      {
+        "year": 2021,
+        "value": 45
+      },
+      {
+        "year": 2022,
+        "value": 107
+      },
+      {
+        "year": 2023,
+        "value": 105
+      },
+      {
+        "year": 2024,
+        "value": 155
+      },
+      {
+        "year": 2025,
+        "value": 124
+      },
+      {
+        "year": 2026,
+        "value": 130
+      }
+    ],
+    "papers": [
+      {
+        "title": "Reliability Estimation in Generalized Inverted Exponential Distribution with Progressively Type-II Censored Sample",
+        "year": 2013,
+        "source": "Journal of Statistical Computation and Simulation",
+        "cites": 193,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:d1gkVwhDpl0C"
+      },
+      {
+        "title": "Reliability Estimation in Lindley Distribution with Progressively Type-II Right Censored Sample",
+        "year": 2011,
+        "source": "Mathematics and Computers in Simulation",
+        "cites": 181,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:RHpTSmoSYBkC"
+      },
+      {
+        "title": "Estimation of P(Y < X) in Lindley distribution using progressively first failure censoring",
+        "year": 2015,
+        "source": "International Journal of System Assurance Engineering and Management",
+        "cites": 55,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:mB3voiENLucC"
+      },
+      {
+        "title": "Disposal of Unused Antibiotics as Household Waste: A Social Driver of Antimicrobial Resistance",
+        "year": 2021,
+        "source": "Environmental Quality Management",
+        "cites": 52,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:BqipwSGYUEgC"
+      },
+      {
+        "title": "On Randomly Censored Generalized Inverted Exponential Distribution",
+        "year": 2016,
+        "source": "American Journal of Mathematical and Management Sciences",
+        "cites": 42,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:_Qo2XoVZTnwC"
+      },
+      {
+        "title": "Nakagami Distribution as a Reliability Model under Progressive Censoring",
+        "year": 2017,
+        "source": "International Journal of System Assurance Engineering and Management",
+        "cites": 41,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:j3f4tGmQtD8C"
+      },
+      {
+        "title": "On Estimation of P(V < U) for Inverse Pareto Distribution under Progressively Censored Data",
+        "year": 2022,
+        "source": "International Journal of System Assurance Engineering and Management",
+        "cites": 39,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:J_g5lzvAfSwC"
+      },
+      {
+        "title": "Estimation in Inverse Weibull Distribution based on Randomly Censored Data",
+        "year": 2019,
+        "source": "Statistica",
+        "cites": 32,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:hMod-77fHWUC"
+      },
+      {
+        "title": "Estimation in Maxwell Distribution with Randomly Censored Data",
+        "year": 2015,
+        "source": "Journal of Statistical Computation and Simulation",
+        "cites": 32,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:HDshCWvjkbEC"
+      },
+      {
+        "title": "Classical and Bayesian Estimation in Log-Logistic Distribution under Random Censoring",
+        "year": 2018,
+        "source": "International Journal of System Assurance Engineering and Management",
+        "cites": 29,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:M3NEmzRMIkIC"
+      },
+      {
+        "title": "Bayesian and likelihood estimation of Multicomponent stress-strength reliability from power Lindley distribution based on progressively censored samples",
+        "year": 2024,
+        "source": "Journal of Statistical Computation and Simulation",
+        "cites": 24,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:4OULZ7Gr8RgC"
+      },
+      {
+        "title": "Inference for Reliability in a Multicomponent Stress-Strength Model from Generalized Inverted Exponential Lifetime Distribution under Progressive First Failure Censoring",
+        "year": 2023,
+        "source": "Journal of Statistical Computation and Simulation",
+        "cites": 24,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:70eg2SAEIzsC"
+      },
+      {
+        "title": "Statistical Inference for the Reliability Functions of a Family of Lifetime Distributions based on Progressive Type-II Right Censoring",
+        "year": 2018,
+        "source": "Statistica",
+        "cites": 24,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:JV2RwH3_ST0C"
+      },
+      {
+        "title": "Reliability Estimation in Inverse Pareto Distribution using Progressively First Failure Censored Data",
+        "year": 2023,
+        "source": "American Journal of Mathematical and Management Sciences",
+        "cites": 18,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:M05iB0D1s5AC"
+      },
+      {
+        "title": "Estimation of the Parameters of Randomly Censored Generalized Inverted Rayleigh Distribution",
+        "year": 2014,
+        "source": "International Journal of Agricultural and Statistical Sciences",
+        "cites": 17,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:7PzlFSSx8tAC"
+      },
+      {
+        "title": "Parameter Estimation for Inverse Pareto Distribution with Randomly Censored Life Time Data",
+        "year": 2020,
+        "source": "International Journal of Agricultural and Statistical Sciences",
+        "cites": 17,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:NMxIlDl6LWMC"
+      },
+      {
+        "title": "Statistical inference in Burr Type XII lifetime model based on progressive randomly censored data",
+        "year": 2024,
+        "source": "Quality Engineering",
+        "cites": 13,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:dfsIfKJdRG4C"
+      },
+      {
+        "title": "Multicomponent Stress-Strength Reliability Estimation of Inverse Pareto Lifetime Model under Progressively Censored Data",
+        "year": 2022,
+        "source": "International Journal of Agricultural and Statistical Sciences",
+        "cites": 12,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:2P1L_qKh6hAC"
+      },
+      {
+        "title": "Bayesian and Classical Inference in Maxwell Distribution under Adaptive Progressively Type-II Censored Data",
+        "year": 2024,
+        "source": "International Journal of Systems Assurance Engineering and Management",
+        "cites": 11,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:u_35RYKgDlwC"
+      },
+      {
+        "title": "Bayesian and likelihood estimation in two inverse Pareto populations under joint progressive censoring",
+        "year": 2023,
+        "source": "Journal of the Indian Society for Probability and Statistics",
+        "cites": 10,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:ZHo1McVdvXMC"
+      },
+      {
+        "title": "On Some Estimation Methods for the Inverse Pareto Distribution",
+        "year": 2023,
+        "source": "Annals of Data Science",
+        "cites": 10,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:NaGl4SEjCO4C"
+      },
+      {
+        "title": "Reliability estimation for inverse Pareto lifetime model based on unified hybrid censored data",
+        "year": 2024,
+        "source": "International Journal of System Assurance Engineering and Management",
+        "cites": 10,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:cFHS6HbyZ2cC"
+      },
+      {
+        "title": "On estimation of Shannon’s entropy of Maxwell distribution based on progressively first-failure censored data",
+        "year": 2024,
+        "source": "Stats",
+        "cites": 9,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:yD5IFk8b50cC"
+      },
+      {
+        "title": "On Estimation of P(Y < X) for Generalized Inverted Exponential Distribution based on Hybrid Censored Data",
+        "year": 2021,
+        "source": "Statistica",
+        "cites": 8,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:ns9cj8rnVeAC"
+      },
+      {
+        "title": "Stochastic Modeling and Parameter Estimation of Turbogenerator Unit of a Thermal Power Plant under Classical and Bayesian Inferential Framework",
+        "year": 2023,
+        "source": "PLOS ONE",
+        "cites": 7,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:fPk4N6BV_jEC"
+      },
+      {
+        "title": "An inferential analysis for the Weibull-G family of distributions under progressively censored data",
+        "year": 2023,
+        "source": "OPSEARCH",
+        "cites": 6,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:SeFeTyx0c_EC"
+      },
+      {
+        "title": "Estimation in generalized uniform distribution with progressively type-II censored sample",
+        "year": 2024,
+        "source": "Life Cycle Reliability and Safety Engineering",
+        "cites": 6,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:a0OBvERweLwC"
+      },
+      {
+        "title": "Stress-strength reliability estimation from xgamma distribution based on progressively censored samples",
+        "year": 2025,
+        "source": "International Journal of Information Technology",
+        "cites": 6,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:P5F9QuxV20EC"
+      },
+      {
+        "title": "Estimation of System Reliability Based on Inverted Exponentiated Pareto Distribution Under a Progressively First‐Failure Censored Scheme With Application",
+        "year": 2025,
+        "source": "Quality and Reliability Engineering International",
+        "cites": 5,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:1sJd4Hv_s6UC"
+      },
+      {
+        "title": "Statistical inference and prediction in unified hybrid censored power Lindley distribution",
+        "year": 2025,
+        "source": "Life Cycle Reliability and Safety Engineering",
+        "cites": 4,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:CHSYGLWDkRkC"
+      },
+      {
+        "title": "Estimation and Prediction in Generalized Half Logistic Lifetime Model using Hybrid Censored Data",
+        "year": 2023,
+        "source": "International Journal of Quality & Reliability Management",
+        "cites": 3,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:g5m5HwL7SMYC"
+      },
+      {
+        "title": "Reliability Estimation in Generalized Gamma Distribution with Progressively Censored Data",
+        "year": 2011,
+        "source": "International Journal of Agricultural and Statistical Sciences",
+        "cites": 3,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:YFjsv_pBGBYC"
+      },
+      {
+        "title": "Bayesian and Non-Bayesian Estimation in Log-Logistic Lifetime Model using Adaptive Progressively Censored Data",
+        "year": 2023,
+        "source": "International Journal of Agricultural and Statistical Sciences",
+        "cites": 2,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:HoB7MX3m0LUC"
+      },
+      {
+        "title": "Inferences for Two Inverse Rayleigh Populations based on Joint Progressively Type-II Censored Data",
+        "year": 2023,
+        "source": "S. C. Malik, Deepak Sinwar, Ashish Kumar, S. R. Gadde, Prasenjit Chatterjee …",
+        "cites": 2,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:lSLTfruPkqcC"
+      },
+      {
+        "title": "Reliability Characteristics Analysis of Ready-Mix Cement Plant under Classical and Bayesian Inferential Framework: A Comparative Analysis",
+        "year": 2025,
+        "source": "BRAZILIAN JOURNAL OF BIOMETRICS",
+        "cites": 2,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:f2IySw72cVMC"
+      },
+      {
+        "title": "Behavioral Analysis of Single-Unit Systems with Weibull Densities under Classical and Bayesian Framework",
+        "year": 2025,
+        "source": "ICT Systems and Sustainability: Proceedings of ICT",
+        "cites": 0,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:bFI3QPDXJZMC"
+      },
+      {
+        "title": "Estimation in Inverse Pareto Distribution under Block Random Censoring",
+        "year": 2026,
+        "source": "International Journal of Agricultural and Statistical Sciences",
+        "cites": 0,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:SP6oXDckpogC"
+      },
+      {
+        "title": "Estimation in power Lindley distributions using balanced joint progressively Type-II censored data",
+        "year": 2026,
+        "source": "Electronic Journal of Applied Statistical Analysis",
+        "cites": 0,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:dshw04ExmUIC"
+      },
+      {
+        "title": "Estimation of stress-strength system based on adaptive progressively hybrid censored samples",
+        "year": 2026,
+        "source": "Soft Computing",
+        "cites": 0,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:uWQEDVKXjbEC"
+      },
+      {
+        "title": "Inference for two xgamma populations based on joint progressive type-II censored samples",
+        "year": 2026,
+        "source": "Quality & Quantity",
+        "cites": 0,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:KxtntwgDAa4C"
+      },
+      {
+        "title": "Proceedings of the International Conference on Frontiers in Industrial and Applied Mathematics—FIAM 2022",
+        "year": 2024,
+        "source": "International Conference on Frontiers in Industrial and Applied Mathematics …",
+        "cites": 0,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:pyW8ca7W8N0C"
+      },
+      {
+        "title": "Reliability estimation in generalized inverted exponential distribution under block progressive type-II censoring scheme",
+        "year": 2026,
+        "source": "Hacettepe Journal of Mathematics & Statistics",
+        "cites": 0,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:UxriW0iASnsC"
+      },
+      {
+        "title": "STOCHASTIC MODELING OF SINGLE UNIT SYSTEMS WITH DELIBERATED FAILURES SUBJECT TO WARRANTY",
+        "year": 2023,
+        "source": "Investigación Operacional",
+        "cites": 0,
+        "link": "https://scholar.google.com/citations?view_op=view_citation&user=5_ONzJUAAAAJ&citation_for_view=5_ONzJUAAAAJ:D03iK_w7-QYC"
+      }
+    ]
+  },
+  "scopus": {
+    "updated": "2026-10-19",
+    "profile": "https://www.scopus.com/authid/detail.uri?authorId=56087498200",
+    "citations": 682,
+    "h_index": 14,
+    "documents": 37,
+    "by_year": [
+      {
+        "year": 2011,
+        "value": 2
+      },
+      {
+        "year": 2013,
+        "value": 1
+      },
+      {
+        "year": 2014,
+        "value": 1
+      },
+      {
+        "year": 2015,
+        "value": 2
+      },
+      {
+        "year": 2016,
+        "value": 1
+      },
+      {
+        "year": 2017,
+        "value": 1
+      },
+      {
+        "year": 2018,
+        "value": 1
+      },
+      {
+        "year": 2019,
+        "value": 1
+      },
+      {
+        "year": 2020,
+        "value": 1
+      },
+      {
+        "year": 2021,
+        "value": 2
+      },
+      {
+        "year": 2022,
+        "value": 2
+      },
+      {
+        "year": 2023,
+        "value": 9
+      },
+      {
+        "year": 2024,
+        "value": 6
+      },
+      {
+        "year": 2025,
+        "value": 5
+      },
+      {
+        "year": 2026,
+        "value": 2
+      }
+    ],
+    "papers": [
+      {
+        "title": "Reliability estimation in generalized inverted exponential distribution with progressively type II censored sample",
+        "year": 2013,
+        "source": "Journal of Statistical Computation and Simulation",
+        "cites": 138,
+        "link": "https://doi.org/10.1080/00949655.2011.647027"
+      },
+      {
+        "title": "Reliability estimation in Lindley distribution with progressively type II right censored sample",
+        "year": 2011,
+        "source": "Mathematics and Computers in Simulation",
+        "cites": 108,
+        "link": "https://doi.org/10.1016/j.matcom.2011.07.005"
+      },
+      {
+        "title": "Estimation of P(Y < X) in Lindley distribution using progressively first failure censoring",
+        "year": 2015,
+        "source": "International Journal of System Assurance Engineering and Management",
+        "cites": 43,
+        "link": "https://doi.org/10.1007/s13198-014-0267-9"
+      },
+      {
+        "title": "Estimation in Maxwell distribution with randomly censored data",
+        "year": 2015,
+        "source": "Journal of Statistical Computation and Simulation",
+        "cites": 42,
+        "link": "https://doi.org/10.1080/00949655.2014.986483"
+      },
+      {
+        "title": "Disposal of unused antibiotics as household waste: A social driver of antimicrobial resistance",
+        "year": 2021,
+        "source": "Environmental Quality Management",
+        "cites": 37,
+        "link": "https://doi.org/10.1002/tqem.21744"
+      },
+      {
+        "title": "On randomly censored generalized inverted exponential distribution",
+        "year": 2016,
+        "source": "American Journal of Mathematical and Management Sciences",
+        "cites": 35,
+        "link": "https://doi.org/10.1080/01966324.2016.1236711"
+      },
+      {
+        "title": "Nakagami distribution as a reliability model under progressive censoring",
+        "year": 2017,
+        "source": "International Journal of System Assurance Engineering and Management",
+        "cites": 29,
+        "link": "https://doi.org/10.1007/s13198-016-0494-3"
+      },
+      {
+        "title": "On estimation of P(V< U) for inverse Pareto distribution under progressively censored data",
+        "year": 2022,
+        "source": "International Journal of System Assurance Engineering and Management",
+        "cites": 29,
+        "link": "https://doi.org/10.1007/s13198-021-01193-w"
+      },
+      {
+        "title": "Estimation in inverse Weibull distribution based on randomly censored data",
+        "year": 2019,
+        "source": "Statistica",
+        "cites": 23,
+        "link": "https://doi.org/10.6092/issn.1973-2201/8414"
+      },
+      {
+        "title": "Inference for reliability in a multicomponent stress-strength model from generalized inverted exponential lifetime distribution under progressive first failure censoring",
+        "year": 2023,
+        "source": "Journal of Statistical Computation and Simulation",
+        "cites": 22,
+        "link": "https://doi.org/10.1080/00949655.2022.2122970"
+      },
+      {
+        "title": "Classical and Bayesian estimation in log-logistic distribution under random censoring",
+        "year": 2018,
+        "source": "International Journal of System Assurance Engineering and Management",
+        "cites": 19,
+        "link": "https://doi.org/10.1007/s13198-017-0688-3"
+      },
+      {
+        "title": "Bayesian and likelihood estimation of multicomponent stress–strength reliability from power Lindley distribution based on progressively censored samples",
+        "year": 2024,
+        "source": "Journal of Statistical Computation and Simulation",
+        "cites": 18,
+        "link": "https://doi.org/10.1080/00949655.2023.2277331"
+      },
+      {
+        "title": "Parameter estimation for inverse pareto distribution with randomly censored life time data",
+        "year": 2020,
+        "source": "International Journal of Agricultural and Statistical Sciences",
+        "cites": 14,
+        "link": ""
+      },
+      {
+        "title": "Reliability Estimation in Inverse Pareto Distribution Using Progressively First Failure Censored Data",
+        "year": 2023,
+        "source": "American Journal of Mathematical and Management Sciences",
+        "cites": 14,
+        "link": "https://doi.org/10.1080/01966324.2022.2163441"
+      },
+      {
+        "title": "Estimation of the parameters of randomly censored generalized inverted Rayleigh distribution",
+        "year": 2014,
+        "source": "International Journal of Agricultural and Statistical Sciences",
+        "cites": 13,
+        "link": ""
+      },
+      {
+        "title": "Bayesian and classical inference in Maxwell distribution under adaptive progressively Type-II censored data",
+        "year": 2024,
+        "source": "International Journal of System Assurance Engineering and Management",
+        "cites": 9,
+        "link": "https://doi.org/10.1007/s13198-023-02185-8"
+      },
+      {
+        "title": "Bayesian and Likelihood Estimation in Two Inverse Pareto Populations Under Joint Progressive Censoring",
+        "year": 2023,
+        "source": "Journal of the Indian Society for Probability and Statistics",
+        "cites": 9,
+        "link": "https://doi.org/10.1007/s41096-023-00154-9"
+      },
+      {
+        "title": "MULTICOMPONENT STRESS-STRENGTH RELIABILITY ESTIMATION OF INVERSE PARETO LIFETIME MODEL UNDER PROGRESSIVELY CENSORED DATA",
+        "year": 2022,
+        "source": "International Journal of Agricultural and Statistical Sciences",
+        "cites": 9,
+        "link": ""
+      },
+      {
+        "title": "Statistical inference in Burr type XII lifetime model based on progressive randomly censored data",
+        "year": 2024,
+        "source": "Quality Engineering",
+        "cites": 9,
+        "link": "https://doi.org/10.1080/08982112.2023.2276771"
+      },
+      {
+        "title": "ON ESTIMATION OF P(Y < X) FOR GENERALIZED INVERTED EXPONENTIAL DISTRIBUTION BASED ON HYBRID CENSORED DATA",
+        "year": 2021,
+        "source": "Statistica",
+        "cites": 8,
+        "link": "https://doi.org/10.6092/issn.1973-2201/9895"
+      },
+      {
+        "title": "On Estimation of Shannon’s Entropy of Maxwell Distribution Based on Progressively First-Failure Censored Data",
+        "year": 2024,
+        "source": "Stats",
+        "cites": 8,
+        "link": "https://doi.org/10.3390/stats7010009"
+      },
+      {
+        "title": "Reliability estimation for inverse Pareto lifetime model based on unified hybrid censored data",
+        "year": 2024,
+        "source": "International Journal of System Assurance Engineering and Management",
+        "cites": 8,
+        "link": "https://doi.org/10.1007/s13198-024-02265-3"
+      },
+      {
+        "title": "Stochastic modeling and parameter estimation of turbogenerator unit of a thermal power plant under classical and Bayesian inferential framework",
+        "year": 2023,
+        "source": "PLoS ONE",
+        "cites": 6,
+        "link": "https://doi.org/10.1371/journal.pone.0292154"
+      },
+      {
+        "title": "An inferential analysis for the Weibull-G family of distributions under progressively censored data",
+        "year": 2023,
+        "source": "OPSEARCH",
+        "cites": 5,
+        "link": "https://doi.org/10.1007/s12597-023-00645-0"
+      },
+      {
+        "title": "On Some Estimation Methods for the Inverse Pareto Distribution",
+        "year": 2023,
+        "source": "Annals of Data Science",
+        "cites": 5,
+        "link": "https://doi.org/10.1007/s40745-021-00356-7"
+      },
+      {
+        "title": "Stress-strength reliability estimation from xgamma distribution based on progressively censored samples",
+        "year": 2025,
+        "source": "International Journal of Information Technology (Singapore)",
+        "cites": 5,
+        "link": "https://doi.org/10.1007/s41870-025-02559-0"
+      },
+      {
+        "title": "Estimation in generalized uniform distribution with progressively type-II censored sample",
+        "year": 2024,
+        "source": "Life Cycle Reliability and Safety Engineering",
+        "cites": 4,
+        "link": "https://doi.org/10.1007/s41872-024-00267-5"
+      },
+      {
+        "title": "Estimation of System Reliability Based on Inverted Exponentiated Pareto Distribution Under a Progressively First-Failure Censored Scheme With Application",
+        "year": 2025,
+        "source": "Quality and Reliability Engineering International",
+        "cites": 3,
+        "link": "https://doi.org/10.1002/qre.70017"
+      },
+      {
+        "title": "Statistical inference and prediction in unified hybrid censored power Lindley distribution",
+        "year": 2025,
+        "source": "Life Cycle Reliability and Safety Engineering",
+        "cites": 3,
+        "link": "https://doi.org/10.1007/s41872-024-00295-1"
+      },
+      {
+        "title": "Estimation and prediction in generalized half logistic lifetime model using hybrid censored data",
+        "year": 2023,
+        "source": "International Journal of Quality and Reliability Management",
+        "cites": 2,
+        "link": "https://doi.org/10.1108/IJQRM-05-2022-0149"
+      },
+      {
+        "title": "Inferences for two inverse rayleigh populations based on joint progressively type-II censored data",
+        "year": 2023,
+        "source": "Computational Intelligence in Sustainable Reliability Engineering",
+        "cites": 2,
+        "link": "https://doi.org/10.1002/9781119865421.ch8"
+      },
+      {
+        "title": "Reliability estimation in generalized gamma distribution with progressively censored data",
+        "year": 2011,
+        "source": "International Journal of Agricultural and Statistical Sciences",
+        "cites": 2,
+        "link": ""
+      },
+      {
+        "title": "Reliability characteristics analysis of Ready-Mix Cement plant under classical and bayesian inferential framework: A Comparative Analysis",
+        "year": 2025,
+        "source": "Brazilian Journal of Biometrics",
+        "cites": 1,
+        "link": "https://doi.org/10.28951/bjb.v43i3.790"
+      },
+      {
+        "title": "Behavioral Analysis of Single-Unit Systems with Weibull Densities Under Classical and Bayesian Framework",
+        "year": 2025,
+        "source": "Lecture Notes in Networks and Systems",
+        "cites": 0,
+        "link": "https://doi.org/10.1007/978-981-97-8526-1_18"
+      },
+      {
+        "title": "Inference for two xgamma populations based on joint progressive type-II censored samples",
+        "year": 2026,
+        "source": "Quality and Quantity",
+        "cites": 0,
+        "link": "https://doi.org/10.1007/s11135-026-02657-6"
+      },
+      {
+        "title": "Reliability estimation in generalized inverted exponential distribution under block progressive type-II censoring scheme",
+        "year": 2026,
+        "source": "Hacettepe Journal of Mathematics and Statistics",
+        "cites": 0,
+        "link": "https://doi.org/10.15672/hujms.1845903"
+      },
+      {
+        "title": "STOCHASTIC MODELING OF SINGLE UNIT SYSTEMS WITH DELIBERATED FAILURES SUBJECT TO WARRANTY",
+        "year": 2023,
+        "source": "Investigacion Operacional",
+        "cites": 0,
+        "link": ""
+      }
+    ]
+  }
+}

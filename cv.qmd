@@ -1,0 +1,82 @@
+---
+title: "Curriculum Vitae"
+---
+
+[Download full CV (PDF)](files/Kapil_Kumar_CV.pdf){.btn .btn-outline-primary .btn-sm}
+
+## Positions
+
+| Period | Position |
+|--------|----------|
+| Aug 2025 – present | Professor, Department of Statistics, Chaudhary Charan Singh University, Meerut |
+| Jan 2024 – Aug 2025 | Associate Professor, Department of Statistics, Chaudhary Charan Singh University, Meerut |
+| Aug 2022 – Jan 2024 | Associate Professor, Department of Statistics, Central University of Haryana, Mahendergarh |
+| Jun 2016 – Aug 2022 | Assistant Professor, Department of Statistics, Central University of Haryana, Mahendergarh |
+| Sep 2012 – May 2016 | Assistant Professor (ad hoc), Department of Statistics, University of Delhi |
+
+## Education
+
+| Year | Degree |
+|------|--------|
+| 2011 | PhD (Statistics), Chaudhary Charan Singh University, Meerut. Thesis: *Reliability Inferences with Censored Sample Information* |
+| 2008 | MPhil (Statistics), Chaudhary Charan Singh University, Meerut |
+| 2007 | CSIR-UGC NET (Mathematical Sciences) |
+| 2006 | MSc (Statistics), Chaudhary Charan Singh University, Meerut |
+| 2004 | BSc (Mathematics, Physics, Statistics), Meerut College, Meerut |
+
+## Academic administration
+
+**Chaudhary Charan Singh University, Meerut**
+
+- Member, Internal Quality Assurance Cell (IQAC)
+- Deputy Admission Coordinator, University Campus and affiliated colleges (2025–26)
+- Member, Sustainable Development Goals group (2025–26)
+- Member, State Common Admission Module through Samarth Committee (2025–26)
+- Member, Anti-Ragging Squad (2024–25 and 2025–26)
+
+**Central University of Haryana, Mahendergarh**
+
+- Head, Department of Statistics (2022–2024)
+- Deputy Director, Training and Placement Cell (2022–2024)
+- Convener, Annual Reports of the University (2021–22 and 2022–23)
+- Member, School Board, School of Basic Sciences (2020–2024), and School of Physical and Mathematical Sciences (2018–2020)
+- Member, Departmental Research Committee (2016–2024) and Board of Studies (2016–2022)
+- Member, NAAC Committee (Criterion IV) for the SSR 2022, and AQAR Committee (2021–22)
+
+**University of Delhi**
+
+- Faculty Coordinator, Credence – The Placement Cell, Department of Statistics (2013–2016)
+- Member, Syllabus Revision Committees for BSc (Hons) Statistics under FYUP (2012–13) and CBCS (2014–15)
+
+## Conferences and workshops organized
+
+- Convener, Online National Workshop on Statistical Data Analysis using SPSS and R, Central University of Haryana, 20–24 March 2023.
+- Organizing Secretary, 5th International Conference on Frontiers in Industrial and Applied Mathematics (FIAM-2022), Central University of Haryana, 22–23 December 2022.
+- Organizing Secretary, International Webinar on An Introduction to Statistical Meta-Analysis with an Application, Central University of Haryana, 7 April 2022.
+- Organizing Secretary, Online National Workshop on Applications of Statistical Tools in Data Analysis (ASTDA-2022), Central University of Haryana, 21–25 March 2022.
+- Organizing Secretary, Webinar on Estimating Ordered Parameters and Estimating Mean under Restrictions in Normal Exponential Populations, Central University of Haryana, 9 February 2022.
+- Convener, Online National Workshop on Applications of Mathematical and Statistical Tools (PMMMNMTT), Central University of Haryana, 20–24 March 2021.
+- Member, Organizing Committee, National Science Day, Central University of Haryana, 2020, 2021 and 2022.
+- Member, Organizing Committee, International Conference on Trends in Computational and Cognitive Engineering, Central University of Haryana, 28–30 November 2019.
+- Coordinator, National Conference on Transcending Borders and Disciplines: Culture, Literature and Society, Central University of Haryana, 27–28 April 2019.
+- Member, Organizing Committee, Faculty Development Programme on Data Analysis using Software Packages, Hindu College, University of Delhi, 12–24 December 2018.
+- Co-Convener, National Workshop on Statistical Techniques and Data Analysis using R, Central University of Haryana, 19–23 March 2018.
+- Member, Organizing Committee, Workshop on Statistical Computing using R, University of Delhi, 14–15 September 2013.
+
+## Professional memberships
+
+- Life Member, International Indian Statistical Association
+- Life Member, Indian Society for Probability and Statistics
+- Life Member, Indian Science Congress Association
+- Life Member, Association of Inventory Academicians and Practitioners
+- Life Member, Vigyan Bharati
+
+## Reviewer for journals
+
+- **Springer:** Annals of Data Science; Communications in Mathematics and Statistics; International Journal of Information Technology; International Journal of System Assurance Engineering and Management; Iran Journal of Computer Science; Journal of Nonlinear Mathematical Physics; Life Cycle Reliability and Safety Engineering.
+- **Taylor & Francis:** Communications in Statistics – Theory and Methods; Journal of Applied Statistics; Journal of Statistical Computation and Simulation; Journal of Taibah University for Science; Quality Technology & Quantitative Management.
+- **Elsevier:** Applied Mathematical Modelling; Computers & Industrial Engineering; Scientific African; Statistical Methodology.
+- **Wiley:** Quality and Reliability Engineering International.
+- **Sage:** Proceedings of the Institution of Mechanical Engineers, Part O: Journal of Risk and Reliability.
+- **Hindawi:** Complexity; Journal of Mathematics; Mathematical Problems in Engineering.
+- **Others:** Austrian Journal of Statistics; Electronic Journal of Applied Statistical Analysis; Journal of Modern Applied Statistical Methods; Journal of Statistics Applications & Probability; Malaysian Journal of Science; PLOS ONE; Statistica; Statistics and Its Interface; Statistics, Optimization & Information Computing; Thailand Statistician.

@@ -1,0 +1,74 @@
+---
+title: "Teaching"
+---
+
+I have taught statistics for 14 years at Chaudhary Charan Singh University, Meerut, the Central University of Haryana, Mahendergarh, and the University of Delhi.
+
+<!--
+COURSE PAGES
+Each current course has its own page and folder: teaching/<course>/index.qmd, with the slide
+PDFs in the same folder. To update a deck, replace its PDF (keep the file name), correct its
+slide count on the course page if it changed, and run weekly_update.R (or quarto render).
+-->
+
+## Current courses (2026–27)
+
+::: {.cp-courses}
+::: {.cp-course}
+[M.Sc. Statistics · Semester III]{.cp-level}
+
+### [Statistical Inference–II](teaching/statistical-inference-ii/index.qmd)
+
+Decision theory, sequential analysis and nonparametric inference. Slides for all 60 lectures,
+unit by unit.
+
+[Course page and slides](teaching/statistical-inference-ii/index.qmd){.cp-go}
+:::
+
+::: {.cp-course}
+[B.Sc. (Hons) Statistics · Semester V]{.cp-level}
+
+### [Econometrics](teaching/econometrics/index.qmd)
+
+Generalized least squares, multicollinearity, heteroskedasticity, autocorrelation, instrumental
+variables and simultaneous equations. Slides for all 60 lectures, unit by unit.
+
+[Course page and slides](teaching/econometrics/index.qmd){.cp-go}
+:::
+:::
+
+The complete lecture notes, solutions and assignments are shared with the students enrolled in each course.
+
+## Courses taught
+
+**PhD coursework (Statistics)**
+
+- Reliability and Life Testing
+- Survival Analysis
+
+**MSc Statistics**
+
+- Bayesian Inference
+- Survival Analysis
+- Statistical Inference ([lecture slides](teaching/statistical-inference-ii/index.qmd))
+- Linear Models
+- Design of Experiments
+- Sampling Techniques
+- Statistical Methodology
+- Statistical Computing using R
+
+**BSc (Hons) Statistics**
+
+- Design of Experiments
+- Linear Models and Regression Analysis
+- Econometrics ([lecture slides](teaching/econometrics/index.qmd))
+
+## Curriculum development
+
+- Member, Board of Studies, Department of Statistics, Central University of Haryana (2016–2022).
+- Member, Syllabus Revision Committee for BSc (Hons) Statistics under the Choice Based Credit System, University of Delhi (2014–15).
+- Member, Syllabus Revision Committee for BSc (Hons) Statistics under the Four Year Undergraduate Programme, University of Delhi (2012–13).
+
+## Workshops on R
+
+I regularly give invited lectures and hands-on sessions on data analysis and statistical computing with R at workshops and faculty development programmes. Slides for these lectures are on the [Workshops](workshops.qmd) page; the R code and data are available on request.

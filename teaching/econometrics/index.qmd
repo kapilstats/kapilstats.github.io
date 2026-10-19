@@ -1,0 +1,139 @@
+---
+title: "Econometrics"
+subtitle: "B.Sc. (Hons) Statistics · Semester V · Academic Session 2026–27"
+---
+
+<!--
+Made by make_course_pages.py. Only the 60 lecture decks (Lecture_01.pdf ... Lecture_60.pdf)
+are published. TO UPDATE A DECK: replace its PDF in this folder (keep the file name), correct
+its slide count in the table below if it changed, and run weekly_update.R.
+-->
+
+::: {.cp-meta}
+[CCS University, Meerut]{.cp-chip}
+[4 credits · 60 lectures]{.cp-chip}
+[60 lecture decks]{.cp-chip}
+:::
+
+The course covers how econometric models are built and estimated, and what to do when the
+assumptions of the classical linear regression model fail: generalized least squares,
+multicollinearity and ridge regression, heteroskedasticity, autocorrelation, instrumental
+variables, and the identification and estimation of simultaneous equations models.
+
+## Slides
+
+There is one deck for each lecture.
+
+::: {.panel-tabset}
+## Unit I
+
+**Introduction and generalized least squares** · Lectures 1–15
+
+| Lecture | Topics | Slides |
+|:----:|:----------------------------------------------|:----------:|
+| 1 | Preliminaries: notation; differentiation with respect to a vector; expectations and variances | [9 slides](Lecture_01.pdf){.cp-pdf} |
+| 2 | Positive definite matrices and eigenvalues; the OLS criterion and normal equations | [7 slides](Lecture_02.pdf){.cp-pdf} |
+| 3 | Variance of OLS; estimating σ²; the Gauss--Markov theorem; a numerical example | [7 slides](Lecture_03.pdf){.cp-pdf} |
+| 4 | Meaning and nature of econometrics; exact and econometric relationships | [9 slides](Lecture_04.pdf){.cp-pdf} |
+| 5 | Types of data; sources and quality of data | [10 slides](Lecture_05.pdf){.cp-pdf} |
+| 6 | Objectives of econometric models; stages of model building | [8 slides](Lecture_06.pdf){.cp-pdf} |
+| 7 | From a question to an estimated model; role of econometrics | [9 slides](Lecture_07.pdf){.cp-pdf} |
+| 8 | The model with a general covariance matrix; what happens to OLS | [8 slides](Lecture_08.pdf){.cp-pdf} |
+| 9 | The GLS estimator by transforming the model | [8 slides](Lecture_09.pdf){.cp-pdf} |
+| 10 | The GLS estimator by direct minimisation | [6 slides](Lecture_10.pdf){.cp-pdf} |
+| 11 | Mean and variance of the Aitken estimator | [6 slides](Lecture_11.pdf){.cp-pdf} |
+| 12 | Aitken's theorem: statement and short proof | [6 slides](Lecture_12.pdf){.cp-pdf} |
+| 13 | Aitken's theorem: the direct proof; GLS versus OLS | [11 slides](Lecture_13.pdf){.cp-pdf} |
+| 14 | A worked example of GLS | [8 slides](Lecture_14.pdf){.cp-pdf} |
+| 15 | Feasible GLS; summary of key formulas | [7 slides](Lecture_15.pdf){.cp-pdf} |
+
+## Unit II
+
+**Multicollinearity and heteroskedasticity** · Lectures 16–30
+
+| Lecture | Topics | Slides |
+|:----:|:----------------------------------------------|:----------:|
+| 16 | The problem of multic&shy;ollinearity; standardised form; sources | [10 slides](Lecture_16.pdf){.cp-pdf} |
+| 17 | Implications: perfect and near multic&shy;ollinearity; the variance inflation factor | [11 slides](Lecture_17.pdf){.cp-pdf} |
+| 18 | OLS estimates too large on average; practical consequences; detection by \|*X*′*X*\| | [10 slides](Lecture_18.pdf){.cp-pdf} |
+| 19 | Diagnostics: correlation matrix, \|*R*\|, partial regressions and VIFs | [10 slides](Lecture_19.pdf){.cp-pdf} |
+| 20 | Diagnostics: condition indices and variance-decomposition proportions | [9 slides](Lecture_20.pdf){.cp-pdf} |
+| 21 | Remedies: more data, dropping variables, prior information, generalized inverse, principal components | [13 slides](Lecture_21.pdf){.cp-pdf} |
+| 22 | Ridge regression: the estimator, constrained least squares, bias and covariance | [12 slides](Lecture_22.pdf){.cp-pdf} |
+| 23 | Mean squared error of the ridge estimator; the Hoerl--Kennard theorem | [11 slides](Lecture_23.pdf){.cp-pdf} |
+| 24 | Why ridge regression works; choice of the biasing parameter; ridge trace and HKB | [12 slides](Lecture_24.pdf){.cp-pdf} |
+| 25 | Limitations of ridge regression; summary of key formulas | [7 slides](Lecture_25.pdf){.cp-pdf} |
+| 26 | Hetero&shy;skedasticity: concept, sources and consequences for OLS | [9 slides](Lecture_26.pdf){.cp-pdf} |
+| 27 | Bartlett's test | [10 slides](Lecture_27.pdf){.cp-pdf} |
+| 28 | The Breusch--Pagan test | [8 slides](Lecture_28.pdf){.cp-pdf} |
+| 29 | The Goldfeld--Quandt test; comparison of the three tests | [9 slides](Lecture_29.pdf){.cp-pdf} |
+| 30 | Estimation under hetero&shy;skedasticity: WLS, transforming the model, feasible GLS | [13 slides](Lecture_30.pdf){.cp-pdf} |
+
+## Unit III
+
+**Autocorrelation and instrumental variables** · Lectures 31–45
+
+| Lecture | Topics | Slides |
+|:----:|:----------------------------------------------|:----------:|
+| 31 | Autocorrelation: concept, measures and causes; the AR(1) scheme | [6 slides](Lecture_31.pdf){.cp-pdf} |
+| 32 | Moments of the AR(1) disturbances | [8 slides](Lecture_32.pdf){.cp-pdf} |
+| 33 | Consequences of autocorrelated disturbances | [7 slides](Lecture_33.pdf){.cp-pdf} |
+| 34 | Detection: graphical method; the Durbin--Watson statistic and its relation with ρ | [7 slides](Lecture_34.pdf){.cp-pdf} |
+| 35 | The Durbin--Watson test: decision rule, examples and limitations | [8 slides](Lecture_35.pdf){.cp-pdf} |
+| 36 | Durbin's *h* test | [6 slides](Lecture_36.pdf){.cp-pdf} |
+| 37 | ρ known: the generalized difference equation and the Prais--Winsten transformation | [9 slides](Lecture_37.pdf){.cp-pdf} |
+| 38 | ρ unknown: estimating ρ; the Cochrane--Orcutt procedure | [6 slides](Lecture_38.pdf){.cp-pdf} |
+| 39 | Durbin's two-step method; the Hildreth--Lu method | [7 slides](Lecture_39.pdf){.cp-pdf} |
+| 40 | A complete worked example; summary of key formulas | [9 slides](Lecture_40.pdf){.cp-pdf} |
+| 41 | Why OLS fails: consistency; a regressor correlated with the disturbance | [7 slides](Lecture_41.pdf){.cp-pdf} |
+| 42 | Instruments; the IV estimator in the simple regression | [7 slides](Lecture_42.pdf){.cp-pdf} |
+| 43 | Consistency of the IV estimator; an IV calculation | [6 slides](Lecture_43.pdf){.cp-pdf} |
+| 44 | The IV estimator in matrix form: consistency and variance | [6 slides](Lecture_44.pdf){.cp-pdf} |
+| 45 | Relevance and weak instruments; more instruments than regressors; summary | [7 slides](Lecture_45.pdf){.cp-pdf} |
+
+## Unit IV
+
+**Simultaneous equations models** · Lectures 46–60
+
+| Lecture | Topics | Slides |
+|:----:|:----------------------------------------------|:----------:|
+| 46 | Simultaneous equations models; endogenous, exogenous and predetermined variables | [6 slides](Lecture_46.pdf){.cp-pdf} |
+| 47 | A demand--supply system: structural and reduced forms | [9 slides](Lecture_47.pdf){.cp-pdf} |
+| 48 | General form of the system; the problem of identification | [9 slides](Lecture_48.pdf){.cp-pdf} |
+| 49 | The order condition | [7 slides](Lecture_49.pdf){.cp-pdf} |
+| 50 | The rank condition; working procedure for identification | [8 slides](Lecture_50.pdf){.cp-pdf} |
+| 51 | The X/0 table method | [10 slides](Lecture_51.pdf){.cp-pdf} |
+| 52 | Identification step by step: the market for milk | [8 slides](Lecture_52.pdf){.cp-pdf} |
+| 53 | Examples of identification; summary of key points | [12 slides](Lecture_53.pdf){.cp-pdf} |
+| 54 | OLS in a structural equation: inconsistency and where it is appropriate | [8 slides](Lecture_54.pdf){.cp-pdf} |
+| 55 | Indirect least squares | [8 slides](Lecture_55.pdf){.cp-pdf} |
+| 56 | Two-stage least squares: the method, derivation and consistency | [8 slides](Lecture_56.pdf){.cp-pdf} |
+| 57 | 2SLS standard errors; an over-identified example; 2SLS, IV and ILS under exact identification | [9 slides](Lecture_57.pdf){.cp-pdf} |
+| 58 | LIML: the least variance ratio and its minimisation | [10 slides](Lecture_58.pdf){.cp-pdf} |
+| 59 | LIML under exact identification; the *k*-class; a LIML calculation | [8 slides](Lecture_59.pdf){.cp-pdf} |
+| 60 | Properties of LIML; comparison of the methods; summary | [6 slides](Lecture_60.pdf){.cp-pdf} |
+
+:::
+
+## Syllabus
+
+| Unit | Topics | Lectures |
+|:----:|:--------------------------------------------------|:------:|
+| I | Introduction: objective behind building econometric models, nature of econometrics, model building and role of econometrics. Generalized least squares estimation, Aitken estimator, Gauss–Markov theorem for GLSE. | 15 |
+| II | Problem of multicollinearity, its implications; sources of multicollinearity; tools for handling the problem; remedies for multicollinearity; ridge regression. Heteroskedasticity, consequences and tests for it, estimation procedures under heteroskedastic disturbances, Bartlett's test, Breusch–Pagan test and Goldfeld–Quandt test. | 15 |
+| III | Autocorrelation: concept, consequences of autocorrelated disturbances, detection and solution of autocorrelation. Instrumental variable estimation. | 15 |
+| IV | Simultaneous equations model, problem of identification, necessary and sufficient condition for the identifiability of parameters in a structural equation, ordinary least squares, indirect least squares, two-stage least squares and limited information maximum likelihood method. | 15 |
+
+## Books
+
+- Greene, W. H. (2018). *Econometric Analysis*, 8th Ed., Pearson, New York.
+- Gujarati, D. N., Porter, D. C., and Pal, M. (2021). *Basic Econometrics*, 6th Ed., McGraw-Hill Education (India), Chennai.
+- Johnston, J., and DiNardo, J. (1997). *Econometric Methods*, 4th Ed., McGraw-Hill, New York.
+- Koutsoyiannis, A. (1977). *Theory of Econometrics*, 2nd Ed., Macmillan, London.
+- Maddala, G. S., and Lahiri, K. (2009). *Introduction to Econometrics*, 4th Ed., John Wiley & Sons, Chichester.
+- Montgomery, D. C., Peck, E. A., and Vining, G. G. (2021). *Introduction to Linear Regression Analysis*, 6th Ed., John Wiley & Sons, Hoboken.
+
+::: {.cp-note}
+The slides follow my lecture notes for the course. The complete notes, worked solutions, the R practicals with their data and
+assignments are shared with the students enrolled in the course.
+:::

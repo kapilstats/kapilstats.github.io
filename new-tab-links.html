@@ -1,0 +1,15 @@
+<!-- Opens links to other websites, and PDF files, in a new browser tab.
+     Links between the pages of this site (the menu) open in the same tab. -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll("a[href]").forEach(function (link) {
+    var href = link.getAttribute("href");
+    var external = link.hostname && link.hostname !== window.location.hostname;
+    var pdf = /\.pdf($|[?#])/i.test(href);
+    if (external || pdf) {
+      link.setAttribute("target", "_blank");
+      link.setAttribute("rel", "noopener");
+    }
+  });
+});
+</script>

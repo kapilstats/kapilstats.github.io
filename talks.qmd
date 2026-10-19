@@ -1,0 +1,59 @@
+---
+title: "Talks"
+---
+
+Invited talks and conference presentations, newest first.
+
+<!--
+TO ADD A TALK: copy one entry below and edit it.
+Slides can go in a talks/ folder and be linked as [Slides (PDF)](talks/file.pdf)
+-->
+
+## Invited talks at conferences
+
+- **Invited talk**, Annual Conference of the International Indian Statistical Association (IISA-2026), Banaras Hindu University, Varanasi, 26–30 December 2026 (forthcoming).
+- **Reliability Inference for a Multicomponent Stress–Strength System under Progressive First-Failure Censoring.** International Conference on Artificial Intelligence, Mathematical Sciences and Statistical Data Science (AIMSSDS-2026), Central University of South Bihar, Gaya, 6 February 2026.
+- **Estimation of Shannon's Entropy of Maxwell Distribution under Censored Data.** National Conference on Time Series, Analytics and Recent Advances in Statistical Modelling, Central University of Rajasthan, Kishangarh, 11 February 2025.
+- **Bayesian Estimation in Progressively First-Failure Censored Inverse Pareto Distribution.** International Conference on Innovative Trends in Statistics, Optimization and Data Science, Kurukshetra University, Kurukshetra, 22 December 2024.
+- **On Bayesian Analysis of the Randomly Censored Log-Logistic Distribution.** 24th International Conference of the International Academy of Physical Sciences, CCS University, Meerut, 10 August 2019.
+- **Estimation in Stress-Strength Model with Lindley Distribution using Progressively First Failure Censored Data.** National Conference on Recent Statistical Computing Techniques and their Applications, Ramanujan College, University of Delhi, 11–12 March 2016.
+
+## Sessions chaired
+
+- 5th International Conference on Frontiers in Industrial and Applied Mathematics, Central University of Haryana, 22–23 December 2022.
+- 4th International Conference on Frontiers in Industrial and Applied Mathematics (virtual), SLIET Longowal, Punjab, 21–22 December 2021.
+- International Conference on Recent Application of Statistical Techniques and Analysis (RASTA-2021, online), Banaras Hindu University, Varanasi, 15–17 December 2021.
+- National Webinar on Living with Covid-19: Holistic Sustainable Solutions, Nari Shiksha Niketan PG College, Lucknow, 7 June 2020.
+- 24th International Conference of the International Academy of Physical Sciences, CCS University, Meerut, 9–11 August 2019.
+- National Conference on Recent Statistical Computing Techniques and their Applications, Ramanujan College, University of Delhi, 11–12 March 2016.
+
+## Contributed presentations
+
+::: {.callout-note collapse="true" appearance="simple"}
+## Show all 19 presentations
+
+**International conferences**
+
+- *Reliability Estimation in Log-Logistic Distribution Based on the Adaptive Progressively Hybrid Censored Data.* IC-GASMOTDS-2025, M.D. University, Rohtak, 28–30 November 2025.
+- *Estimation in the Inverse Chen Lifetime Models using Joint Type-II Censored Data.* International Conference on Statistics, Data Science and Reliability, M.D. University, Rohtak, 24–26 December 2023.
+- *Multicomponent Stress-Strength Reliability Estimation in Generalized Inverted Exponential Distribution based on Censored Data.* IX International Symposium on Statistics and Optimization, Aligarh Muslim University, 28–29 October 2023.
+- *Comparison of Estimation Methods for the Inverse Pareto Distribution.* International Conference on Knowledge Discoveries on Statistical Innovations and Recent Advances in Optimization, Andhra University, Visakhapatnam, 29–30 December 2022.
+- *Statistical Inference in Inverse Pareto Distribution using Randomly Censored Samples.* International Virtual Conference on Statistics and Data Science, Indian Society for Probability and Statistics and Osmania University, Hyderabad, 11–13 March 2022.
+- *Estimation of Stress-Strength Reliability in a Family of Lifetime Models using Progressively Censored Data.* 4th International Conference on Frontiers in Industrial and Applied Mathematics (virtual), SLIET Longowal, 21–22 December 2021.
+- *Reliability Estimation in Inverse Pareto Distribution under Progressive Censoring.* International Conference on Recent Advances in Computational Mathematics and Engineering (online), BK Birla Institute of Engineering and Technology, Pilani, 19–21 March 2021.
+- *On Random Censoring: Classical and Bayesian Estimation Methods.* International Conference on Emerging Innovations in Statistics and Operations Research, M.D. University, Rohtak, 27–30 December 2018.
+- *Stress-Strength Reliability Estimation for Exponentiated Inverted Exponential Distribution using Hybrid Censored Samples.* International Conference on Emerging Trends in Inventory, Supply Chain and Reliability Modeling, University of Delhi, 21–23 December 2018.
+- *Exponentiated Inverted Exponential Distribution under Random Censoring.* International Conference on Recent Trends of Computing in Mathematics, Statistics and Information Technologies, Bundelkhand University, Jhansi, 9–11 March 2018.
+- *On Randomly Censored Inverse Weibull Distribution.* VIII International Symposium on Statistics and Optimization and XXXVI Annual Convention of ISPS, Aligarh Muslim University, 17–19 December 2016.
+- *Reliability Inferences in Lindley Distribution with Progressively Type II Right Censored Sample.* International Conference on New Trends in Life Testing, Bayesian Inference, Sampling Theory, Bio-Statistics, Bio-Informatics and Computer Applications, Banaras Hindu University, Varanasi, 5–8 January 2011.
+- *Reliability Inferences on Exponentiated Inverted Exponential Distribution under Progressive Type-II Censoring.* International Conference on Development and Applications of Statistics in Emerging Areas of Science and Technology, University of Jammu, 8–10 December 2010.
+
+**National conferences**
+
+- *Estimation for an Inverse Rayleigh Distribution under Joint Progressive Censoring.* NCMSDR-2024, Acharya Nagarjuna University, Guntur, 1–2 March 2024.
+- *Estimation of Reliability from the Inverse Pareto Distributions based on the Progressively Censored Samples.* National Conference on Recent Advances in Data Science, VIT-AP University, Vijayawada, 15–17 December 2023.
+- *Estimation in Log-logistic Distribution under Random Censoring.* National Conference on Statistics and Optimization Techniques, M.D. University, Rohtak, 11–13 February 2017.
+- *Inverted Exponentiated Rayleigh Distribution under Random Censoring.* National Conference on Recent Trends and Developments in Statistics, M.D. University, Rohtak, 21–23 February 2015.
+- *Estimation of Parameters of Nakagami Distribution with Progressively Censored Samples.* National Conference on Statistical Inference, Sampling Techniques and Related Areas, Aligarh Muslim University, 18–19 February 2014.
+- *Inferences on Scale Parameter of Progressively Censored Generalized Gamma Distribution.* National Conference on Statistical Inference, Sampling Techniques and Related Areas, Aligarh Muslim University, 28–29 March 2011.
+:::

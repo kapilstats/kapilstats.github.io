@@ -1,0 +1,25 @@
+/.quarto/
+**/*.quarto_ipynb
+_publications.bib
+cv/*.aux
+cv/*.log
+cv/*.out
+cv/*.fls
+cv/*.fdb_latexmk
+cv/*.synctex.gz
+cv/*.pdf
+/metrics/raw/
+# R and RStudio session files
+.Rhistory
+.RData
+.Rproj.user/
+# R code and data are shared by email on request, never published
+workshops/**/*.zip
+# Only the 60 lecture decks of each course are published; any other PDF in a
+# course folder (unit or chapter decks) stays on this computer
+teaching/**/*.pdf
+!teaching/**/Lecture_[0-9][0-9].pdf
+# LaTeX source of the CV (the website uses files/Kapil_Kumar_CV.pdf)
+cv/
+# one-off maintenance script, not part of the website
+clean_history.R

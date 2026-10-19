@@ -1,0 +1,62 @@
+---
+title: "Research"
+---
+
+My research develops classical and Bayesian methods for lifetime data, with a focus on situations where complete data are not available because of censoring. Most of this work is done with my PhD students and collaborators; the full list is on the [Publications](publications.qmd) page.
+
+## Censored data and censoring schemes
+
+Life tests are often stopped before every unit has failed, to save time and cost, and in medical studies patients may leave before the event of interest is observed. I study estimation and prediction under many censoring schemes: progressive Type-II, progressive first-failure, hybrid and unified hybrid, adaptive progressive and adaptive progressive hybrid, joint and balanced joint progressive censoring for two populations, block progressive censoring, and random censoring (including block random and progressive random censoring).
+
+::: {.selected}
+**Selected papers**
+
+- Krishna, H., Nagar, K., and **Kumar, K.** (2026). Reliability estimation in generalized inverted exponential distribution under block progressive Type-II censoring scheme. *Hacettepe Journal of Mathematics and Statistics*. [DOI](https://doi.org/10.15672/hujms.1845903)
+- Goel, R., **Kumar, K.**, Ng, H. K. T., and Kumar, I. (2024). Statistical inference in Burr Type XII lifetime model based on progressive randomly censored data. *Quality Engineering*.
+- Krishna, H., Vivekanand, and **Kumar, K.** (2015). Estimation in Maxwell distribution with randomly censored data. *Journal of Statistical Computation and Simulation*. [DOI](https://doi.org/10.1080/00949655.2014.986483)
+- Krishna, H., and **Kumar, K.** (2011). Reliability estimation in Lindley distribution with progressively Type-II right censored sample. *Mathematics and Computers in Simulation*. [DOI](https://doi.org/10.1016/j.matcom.2011.07.005)
+:::
+
+## Stress-strength reliability
+
+Inference for $R = P(Y < X)$, the probability that a component's strength $X$ exceeds the stress $Y$ applied to it, and for multicomponent stress-strength systems, in which a system works when at least $s$ of its $k$ components withstand the common stress.
+
+::: {.selected}
+**Selected papers**
+
+- **Kumar, K.**, Kumari, A., and Ghosh, I. (2025). Estimation of system reliability based on inverted exponentiated Pareto distribution under a progressively first-failure censored scheme with application. *Quality and Reliability Engineering International*. [DOI](https://doi.org/10.1002/qre.70017)
+- Kumari, A., Ghosh, I., and **Kumar, K.** (2024). Bayesian and likelihood estimation of multicomponent stress-strength reliability from power Lindley distribution based on progressively censored samples. *Journal of Statistical Computation and Simulation*. [DOI](https://doi.org/10.1080/00949655.2023.2277331)
+- Kumari, A., Kumar, S., and **Kumar, K.** (2023). Inference for reliability in a multicomponent stress-strength model from generalized inverted exponential lifetime distribution under progressive first failure censoring. *Journal of Statistical Computation and Simulation*. [DOI](https://doi.org/10.1080/00949655.2022.2122970)
+- **Kumar, K.**, Krishna, H., and Garg, R. (2015). Estimation of $P(Y<X)$ in Lindley distribution using progressively first failure censoring. *International Journal of System Assurance Engineering and Management*. [DOI](https://doi.org/10.1007/s13198-014-0267-9)
+:::
+
+## Bayesian inference
+
+Bayesian estimation of parameters, reliability characteristics and entropy under different loss functions, using Markov chain Monte Carlo methods and approximation methods such as those of Lindley and Tierney–Kadane, with highest posterior density (HPD) credible intervals. Bayesian results are compared with maximum likelihood estimates and confidence intervals through simulation studies and real data.
+
+::: {.selected}
+**Selected papers**
+
+- Kumari, A., **Kumar, K.**, and Kumar, I. (2024). Bayesian and classical inference in Maxwell distribution under adaptive progressively Type-II censored data. *International Journal of System Assurance Engineering and Management*. [DOI](https://doi.org/10.1007/s13198-023-02185-8)
+- **Kumar, K.**, Kumar, I., and Ng, H. K. T. (2024). On estimation of Shannon's entropy of Maxwell distribution based on progressively first-failure censored data. *Stats*. [DOI](https://doi.org/10.3390/stats7010009)
+- **Kumar, K.**, and Kumari, A. (2023). Bayesian and likelihood estimation in two inverse Pareto populations under joint progressive censoring. *Journal of the Indian Society for Probability and Statistics*. [DOI](https://doi.org/10.1007/s41096-023-00154-9)
+:::
+
+## Lifetime distributions
+
+Properties, estimation and applications of lifetime models, including the Lindley and power Lindley, generalized inverted exponential, inverse Pareto and inverted exponentiated Pareto, Maxwell, Nakagami, log-logistic, inverse Weibull, inverse Rayleigh, Burr Type XII, xgamma, generalized half logistic and generalized gamma distributions, and the Weibull-G family.
+
+## Reliability of repairable systems
+
+Stochastic modelling of industrial systems, such as a turbogenerator unit of a thermal power plant and a ready-mix cement plant, with reliability characteristics estimated under classical and Bayesian frameworks.
+
+::: {.selected}
+**Selected papers**
+
+- Kumar, A., Chaudhary, R., **Kumar, K.**, Saini, M., Saini, D. K., and Gupta, P. (2023). Stochastic modeling and parameter estimation of turbogenerator unit of a thermal power plant under classical and Bayesian inferential framework. *PLOS ONE*. [DOI](https://doi.org/10.1371/journal.pone.0292154)
+- Chaudhary, R., Saini, M., Kumar, A., and **Kumar, K.** (2025). Reliability characteristics analysis of ready-mix cement plant under classical and Bayesian inferential framework: a comparative analysis. *Brazilian Journal of Biometrics*. [DOI](https://doi.org/10.28951/bjb.v43i3.790)
+:::
+
+## Collaboration
+
+I welcome collaboration on any of these topics. Please get in touch by [email](mailto:kapilstats@gmail.com).

@@ -1,0 +1,54 @@
+project:
+  type: website
+  output-dir: docs        # GitHub Pages publishes from this folder
+  pre-render:
+    - protect-titles.ts   # keeps capitalisation of publication titles
+    - last-updated.ts     # puts today's date in the footer ("Last updated on ...")
+  resources:
+    - .nojekyll                   # tells GitHub Pages to serve the site as it is
+    - "workshops/**"               # slides (PDF) of the invited R lectures
+    - "teaching/**/Lecture_*.pdf"  # course slides: only the 60 lecture decks of each course
+    - metrics/metrics.json         # numbers for the Metrics page (made by metrics/update_metrics.R)
+    - metrics/metrics-console.js   # draws the Metrics page
+    - metrics/home-metrics.js      # small metrics panel on the Home page
+
+website:
+  title: "Kapil Kumar"
+  site-url: https://kapilstats.github.io
+  description: "Kapil Kumar, Professor of Statistics, Chaudhary Charan Singh University, Meerut. Reliability and life testing, censored data, stress-strength models, Bayesian inference."
+  favicon: images/favicon.svg
+  image: images/kapil.jpg
+  open-graph: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - research.qmd
+      - publications.qmd
+      - metrics.qmd
+      - teaching.qmd
+      - students.qmd
+      - talks.qmd
+      - workshops.qmd
+      - gallery.qmd
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: mortarboard
+        href: https://scholar.google.co.in/citations?user=5_ONzJUAAAAJ&hl=en
+        aria-label: Google Scholar
+      - icon: envelope
+        href: mailto:kapilstats@gmail.com
+        aria-label: Email
+  page-footer:
+    left: "© 2026 Kapil Kumar · Department of Statistics, CCS University, Meerut"
+    right: "Last updated on {{< var last-updated >}} · Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme: [cosmo, custom.scss]
+    toc: false
+    smooth-scroll: true
+    include-after-body: new-tab-links.html   # other websites and PDFs open in a new tab
+    include-in-header:                       # Google Search Console ownership check; keep it
+      text: '<meta name="google-site-verification" content="M5AJ-ND-IKouD4x7ymixdFVQzpwWSc_6YbTQZtGFwxw" />'
