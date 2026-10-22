@@ -37,10 +37,16 @@ out <- old
 # ---------------------------------------------------------------------------
 # Part 1: Google Scholar
 # ---------------------------------------------------------------------------
-gs <- tryCatch({
+# Google Scholar sometimes refuses automated requests for a few hours (reply code 429,
+# or an "unusual traffic" page). The scholar functions then give NA instead of a table,
+# so the result is checked, and the warnings of the scholar package are kept to report.
+scholar_warnings <- character(0)
+gs <- tryCatch(withCallingHandlers({
   profile <- get_profile(scholar_id)
   history <- get_citation_history(scholar_id)          # citations received each year
   papers  <- get_publications(scholar_id)              # one row per paper
+  if (!is.list(profile) || !is.data.frame(history) || !is.data.frame(papers) || nrow(papers) == 0)
+    stop("Google Scholar did not send the profile page")
   # Google Scholar's web page drops the formula P(V < U) from this title; put it back
   papers$title <- sub("On Estimation of\\s+for Inverse Pareto", "On Estimation of P(V < U) for Inverse Pareto",
                       papers$title)
@@ -62,8 +68,15 @@ gs <- tryCatch({
                       "&user=", scholar_id, "&citation_for_view=", scholar_id, ":", papers$pubid)
     )
   )
-}, error = function(e) {
-  message("Google Scholar could not be read (", conditionMessage(e), "). Keeping the old numbers.")
+}, warning = function(w) {
+  scholar_warnings <<- c(scholar_warnings, conditionMessage(w))
+  invokeRestart("muffleWarning")
+}), error = function(e) {
+  reason <- conditionMessage(e)
+  if (length(scholar_warnings) > 0) reason <- paste0(reason, "; ", paste(unique(scholar_warnings), collapse = "; "))
+  message("Google Scholar could not be read (", reason, ").")
+  message("  Google Scholar sometimes blocks automated requests for a few hours. The website keeps the\n",
+          "  previous Google Scholar numbers; run weekly_update.R again later (or tomorrow) to update them.")
   NULL
 })
 if (!is.null(gs)) {
