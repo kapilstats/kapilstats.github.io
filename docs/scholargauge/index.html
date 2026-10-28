@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ScholarGauge</title>
+  <meta name="description" content="ScholarGauge: journal quartiles, novelty index, UN SDGs and research profiles for Google Scholar, for every field. Free, private, no account.">
+  <style>
+    :root { color-scheme: light; }
+    body { max-width: 780px; margin: 0 auto; padding: 28px 18px 48px; font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; color: #1f1e1c; background: #fff; }
+    header { display: flex; gap: 16px; align-items: center; }
+    header img { width: 72px; height: 72px; }
+    h1 { font-size: 30px; margin: 0; color: #104281; }
+    .tag { margin: 2px 0 0; color: #52514e; }
+    h2 { font-size: 19px; margin: 28px 0 8px; }
+    ul { padding-left: 22px; }
+    li { margin: 5px 0; }
+    .muted { color: #6b6a66; font-size: 14px; }
+    a { color: #1c5cab; }
+    .btn { display: inline-block; margin-top: 16px; padding: 8px 16px; border-radius: 6px; background: #1c5cab; color: #fff; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="icon128.png" alt="">
+    <div>
+      <h1>ScholarGauge</h1>
+      <p class="tag">Journal quartiles, novelty and research profiles for Google Scholar™ – any field</p>
+    </div>
+  </header>
+
+  <!-- replace # with the Chrome Web Store link once the extension is published -->
+  <a class="btn" href="#" id="store">Add to Chrome (link after publication)</a>
+
+  <h2>Under every Google Scholar result</h2>
+  <ul>
+    <li>The journal's SCImago quartile and SJR today, and its quartile in the year the paper appeared (1999–2025)</li>
+    <li>Warnings for retracted papers and for journals dropped by Scopus</li>
+    <li>Citations per year and the paper's citation percentile in its field</li>
+    <li>The paper's OpenAlex topic and its UN Sustainable Development Goals</li>
+    <li>For reliability and lifetime-model papers: distribution, censoring scheme, model and method</li>
+    <li>Sort, filter by quartile, export to CSV</li>
+  </ul>
+
+  <h2>On a Scholar profile</h2>
+  <p>A research fingerprint, for all years or recent years: a quartile matrix (papers in Q1–Q4 journals now and when
+    published, and which journals moved up or down), how many papers are in Scopus-covered journals and – with your own free
+    Clarivate key – in the Web of Science Core Collection, papers per year by quartile when published, venues, citations, research areas, UN SDGs,
+    co-authors and countries, interdisciplinarity (Rao–Stirling), exploration of new topics, and a table of variety
+    (diversity) indices – Shannon, Simpson, evenness – for topics, fields, keywords, journals, co-authors and SDGs.
+    Point at any number for its meaning.</p>
+
+  <h2>Research lab</h2>
+  <ul>
+    <li><b>Topic map</b> – which keywords the papers on a topic study together, and which common pairs are missing (gaps)</li>
+    <li><b>Has it been done?</b> – papers combining your ideas, with a novelty (gap) index from 0 (crowded) to 100 (open gap)</li>
+  </ul>
+
+  <h2>How the indices are computed</h2>
+  <p>Definitions, formulas, worked examples and references for the novelty index, the variety indices, interdisciplinarity
+    and exploration: <a href="methods.html">Methods and references</a>.</p>
+
+  <h2>Privacy</h2>
+  <p>Free, no account, no server, no analytics. Nothing is looked up until you agree. Only paper titles, first-author
+    surnames, DOIs and your Research-lab searches are sent, and only to Crossref and OpenAlex (and, only if you add your own
+    Web of Science key, the DOIs of a profile's papers to Clarivate).
+    Read the <a href="privacy.html">privacy policy</a>.</p>
+
+  <h2>Contact</h2>
+  <p>KStats Lab · <a href="mailto:kapilstatslab@gmail.com">kapilstatslab@gmail.com</a></p>
+
+  <p class="muted">Journal data: SCImago Journal &amp; Country Rank. Paper records: OpenAlex and Crossref. ScholarGauge is not
+    affiliated with or endorsed by Google, SCImago, Elsevier, Crossref or OpenAlex. Google Scholar is a trademark of Google LLC.</p>
+</body>
+</html>

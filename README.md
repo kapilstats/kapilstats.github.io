@@ -27,6 +27,7 @@ Source files for the personal academic website of Kapil Kumar, built with [Quart
 | `publications.lua`, `protect-titles.ts`, `newest-first.csl` | Helpers for the publication list (no need to edit) |
 | `last-updated.ts` → `_variables.yml` | Writes today's date at every render; the footer shows it as "Last updated on …" (no need to edit) |
 | `weekly_update.R` | **Run weekly in RStudio (Source):** updates the metrics, rebuilds the site, shows what changed and publishes it after you answer y |
+| `scholargauge/` | Pages of the ScholarGauge Chrome extension (homepage, privacy policy, methods). Plain HTML, copied as they are into `docs/scholargauge/` by Quarto because the folder is listed under `resources:` in `_quarto.yml`. The originals live in `KStats_Lab_Apps\04_ScholarGauge\store\website\scholargauge` |
 | `docs/` | The finished website (created by `quarto render`; do not edit by hand) |
 
 ## Updating the site (Windows PowerShell)
