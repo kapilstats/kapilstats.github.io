@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ScholarGauge – Privacy policy</title>
+  <style>
+    :root { color-scheme: light; }
+    body { max-width: 760px; margin: 0 auto; padding: 24px 18px 48px; font: 15px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; color: #1f1e1c; background: #fff; }
+    h1 { font-size: 24px; margin: 0 0 4px; }
+    h2 { font-size: 17px; margin: 24px 0 6px; }
+    p, li { margin: 6px 0; }
+    ul { padding-left: 22px; }
+    .muted { color: #6b6a66; font-size: 14px; }
+    table { border-collapse: collapse; width: 100%; font-size: 14px; }
+    th, td { text-align: left; border-bottom: 1px solid #e6e4de; padding: 6px 8px; vertical-align: top; }
+    th { color: #52514e; font-weight: 600; }
+    a { color: #1c5cab; }
+  </style>
+</head>
+<body>
+  <h1>ScholarGauge – privacy policy</h1>
+  <p class="muted">Effective 28 October 2026 · Developer: KStats Lab (kapilstatslab@gmail.com)</p>
+
+  <p><b>ScholarGauge has no server and collects nothing about you.</b> It is a browser extension that adds journal
+    quartiles, citation facts and study-design tags to Google Scholar™ pages.</p>
+
+  <h2>Your consent</h2>
+  <p>After installation, ScholarGauge shows what it reads and sends, and looks nothing up until you choose
+    <i>Agree and turn on</i>. You can switch look-ups off at any time in its Options.</p>
+
+  <h2>What the extension reads</h2>
+  <p>Only Google Scholar pages (search results and profile pages): paper titles, authors, journal names, years and
+    citation counts as shown on the page.</p>
+
+  <h2>What it sends, and to whom</h2>
+  <table>
+    <thead><tr><th>Information</th><th>Sent to</th><th>Purpose</th></tr></thead>
+    <tbody>
+      <tr><td>Paper titles and first-author surnames from the Scholar page</td><td>Crossref (api.crossref.org)</td><td>Find each paper's DOI</td></tr>
+      <tr><td>DOIs of those papers</td><td>OpenAlex (api.openalex.org)</td><td>Citations, field percentile, retraction status, authors, abstract</td></tr>
+      <tr><td>Words you type into the Research lab (Topic map, Has it been done?)</td><td>OpenAlex (api.openalex.org)</td><td>Search papers on a topic</td></tr>
+      <tr><td>Your e-mail address, only if you enter one</td><td>Crossref (api.crossref.org)</td><td>Faster service ("polite pool")</td></tr>
+      <tr><td>Your OpenAlex API key, only if you enter one</td><td>OpenAlex (api.openalex.org)</td><td>Larger daily allowance</td></tr>
+      <tr><td>DOIs of a profile's papers and your Web of Science key — only if you add that key in Options</td><td>Clarivate (api.clarivate.com)</td><td>Count the papers in the Web of Science Core Collection</td></tr>
+    </tbody>
+  </table>
+  <p>All requests use HTTPS. Nothing is sent to the developer or to anyone else. There is no analytics, advertising,
+    tracking, profiling, or sale or transfer of data.</p>
+
+  <h2>What it keeps</h2>
+  <p>Your settings (consent, OpenAlex key, Crossref e-mail, Web of Science key, switches), any SCImago files you import, cached look-ups
+    (title → DOI for 4 months, OpenAlex records for 2 weeks, Web of Science answers for 30 days, searches for 1 day) and a count of today's requests are
+    stored only in your browser's extension storage. Remove them with <i>Options → Clear cache</i>, or by removing the
+    extension.</p>
+
+  <h2>Third-party services</h2>
+  <p>Crossref and OpenAlex are public scholarly databases with their own terms and privacy policies. Clarivate's Web of Science
+    API is used only with a key you obtain from Clarivate yourself, under Clarivate's terms; ScholarGauge asks Chrome for access to
+    api.clarivate.com only when you save such a key, and you can withdraw it with <i>Options → Remove key</i>. The journal data
+    (SCImago Journal &amp; Country Rank) is bundled in the extension; no request is made to SCImago. ScholarGauge is not
+    affiliated with or endorsed by Google, SCImago, Elsevier, Clarivate, Crossref or OpenAlex. Google Scholar is a trademark of Google LLC.</p>
+
+  <h2>Use of data</h2>
+  <p>The use of information received from these services follows the Chrome Web Store User Data Policy, including the
+    Limited Use requirements: data is used only to show the facts described above, inside your browser.</p>
+
+  <h2>Changes</h2>
+  <p>Any change to these practices will be described here with a new date, and shown in the extension, before it takes effect.</p>
+
+  <h2>Contact</h2>
+  <p>KStats Lab · kapilstatslab@gmail.com</p>
+</body>
+</html>
