@@ -11,6 +11,7 @@ project:
     - metrics/metrics.json         # numbers for the Metrics page (made by metrics/update_metrics.R)
     - metrics/metrics-console.js   # draws the Metrics page
     - metrics/home-metrics.js      # small metrics panel on the Home page
+    - "scholargauge/**"            # ScholarGauge Chrome extension pages
 
 website:
   title: "Kapil Kumar"
