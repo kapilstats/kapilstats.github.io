@@ -12,6 +12,7 @@ project:
     - metrics/metrics-console.js   # draws the Metrics page
     - metrics/home-metrics.js      # small metrics panel on the Home page
     - "scholargauge/**"            # ScholarGauge Chrome extension pages
+    - "attendance/**"   # Attendance Register privacy page
 
 website:
   title: "Kapil Kumar"
